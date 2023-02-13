@@ -173,5 +173,21 @@ My Little Monster | https://myanimelist.net/anime/14227
 Undefeated Bahamut Chronicle | https://myanimelist.net/anime/30749
 Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway | https://myanimelist.net/anime/40938
 My Sister, My Writer | https://myanimelist.net/anime/36632
+<<<<<<< HEAD
+=======
+The World God Only Knows | https://myanimelist.net/anime/8525
+Akiba's Trip The Animation | https://myanimelist.net/anime/34051
+Yusibu: I couldnt become a hero, so I reluctantly decided to get a job. | https://myanimelist.net/anime/18677
+Vermeil in Gold | https://myanimelist.net/anime/51213
+Darwin's Game | https://myanimelist.net/anime/38656
+High School of the Dead | https://myanimelist.net/anime/8074
+The Future Diary | https://myanimelist.net/anime/10620
+Akikan! | https://myanimelist.net/anime/5112
+Aishen Qiaokeli-ing...II | https://myanimelist.net/anime/36848
+I Somehow Became Stronger by Raising Farming-Related Skills | https://myanimelist.net/anime/51128
+Please Take My Brother Away | https://myanimelist.net/anime/35015
+D-Frag! | https://myanimelist.net/anime/20031
+Love Hina | https://myanimelist.net/anime/189
+>>>>>>> c720006 (updated stuff)
 # Watching
 My Dress-Up Darling | https://myanimelist.net/anime/48736
