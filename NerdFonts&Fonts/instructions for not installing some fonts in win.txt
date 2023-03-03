@@ -1,0 +1,1 @@
+if certain fonts does not install then install using the option install for all users in the context menu and it will surely install
