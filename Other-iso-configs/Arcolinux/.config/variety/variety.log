@@ -1,0 +1,1849 @@
+INFO: 2023-02-01 16:26:31,569: main() 'Using profile folder /home/sunnyarco/.config/variety/'
+INFO: 2023-02-01 16:26:31,574: perform_upgrade() 'Last run version was 0.8.9 or earlier, current version is 0.8.9'
+INFO: 2023-02-01 16:26:31,842: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 16:26:31,847: start() 'Using data_path /usr/share/variety'
+INFO: 2023-02-01 16:26:31,847: load() 'Jumble loading'
+INFO: 2023-02-01 16:26:31,848: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.10/site-packages/variety/plugins/builtin/__init__.py'
+INFO: 2023-02-01 16:26:31,848: _walk_modules() 'Jumble loading module in GnomeDisplayModesPlugin from /usr/lib/python3.10/site-packages/variety/plugins/builtin/display_modes/GnomeDisplayModesPlugin.py'
+INFO: 2023-02-01 16:26:31,849: load() 'Jumble found plugin class: <class 'GnomeDisplayModesPlugin.GnomeDisplayModesPlugin'>: {'name': 'GnomeDisplayModesPlugin', 'description': 'Display modes relying on the underlying desktop environment', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2023-02-01 16:26:31,849: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.10/site-packages/variety/plugins/builtin/display_modes/__init__.py'
+INFO: 2023-02-01 16:26:31,850: _walk_modules() 'Jumble loading module in ResizingDisplayModesPlugin from /usr/lib/python3.10/site-packages/variety/plugins/builtin/display_modes/ResizingDisplayModesPlugin.py'
+INFO: 2023-02-01 16:26:31,851: load() 'Jumble found plugin class: <class 'ResizingDisplayModesPlugin.ResizingDisplayModesPlugin'>: {'name': 'ResizingDisplayModesPlugin', 'description': 'Display modes that use image resizing within Variety', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2023-02-01 16:26:31,851: _walk_modules() 'Jumble loading module in LegacyDisplayModesPlugin from /usr/lib/python3.10/site-packages/variety/plugins/builtin/display_modes/LegacyDisplayModesPlugin.py'
+INFO: 2023-02-01 16:26:31,852: load() 'Jumble found plugin class: <class 'LegacyDisplayModesPlugin.LegacyDisplayModesPlugin'>: {'name': 'LegacyDisplayModesPlugin', 'description': 'Legacy display mode for compatibility with past Variety versions', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2023-02-01 16:26:31,852: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/__init__.py'
+INFO: 2023-02-01 16:26:31,853: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
+INFO: 2023-02-01 16:26:31,854: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,855: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
+INFO: 2023-02-01 16:26:31,866: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,866: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
+INFO: 2023-02-01 16:26:31,867: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,867: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
+INFO: 2023-02-01 16:26:31,868: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,869: _walk_modules() 'Jumble loading module in FortuneSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
+INFO: 2023-02-01 16:26:31,871: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,871: _walk_modules() 'Jumble loading module in WallhavenSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
+INFO: 2023-02-01 16:26:31,875: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'WallhavenSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,875: _walk_modules() 'Jumble loading module in MediaRSSSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
+INFO: 2023-02-01 16:26:31,877: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,877: _walk_modules() 'Jumble loading module in NationalGeographicDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/NationalGeographicDownloader.py'
+INFO: 2023-02-01 16:26:31,878: load() 'Jumble found plugin class: <class 'NationalGeographicDownloader.NationalGeographicDownloader'>: {'name': 'NationalGeographicDownloader', 'description': "National Geographic's photo of the day", 'author': 'Eric Rösch', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,878: _walk_modules() 'Jumble loading module in BingDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
+INFO: 2023-02-01 16:26:31,879: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,880: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/__init__.py'
+INFO: 2023-02-01 16:26:31,880: _walk_modules() 'Jumble loading module in ArtStationDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/ArtStationDownloader.py'
+INFO: 2023-02-01 16:26:31,881: _walk_modules() 'Jumble loading module in WallhavenDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
+INFO: 2023-02-01 16:26:31,882: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
+INFO: 2023-02-01 16:26:31,884: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,884: _walk_modules() 'Jumble loading module in APODDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
+INFO: 2023-02-01 16:26:31,885: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,886: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
+INFO: 2023-02-01 16:26:31,887: _walk_modules() 'Jumble loading module in UnsplashDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
+INFO: 2023-02-01 16:26:31,888: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,889: _walk_modules() 'Jumble loading module in ArtStationSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/ArtStationSource.py'
+INFO: 2023-02-01 16:26:31,890: load() 'Jumble found plugin class: <class 'ArtStationSource.ArtStationSource'>: {'name': 'ArtStationSource', 'description': 'Configurable source for fetching images from ArtStation', 'author': 'Denis Gordeev', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,890: _walk_modules() 'Jumble loading module in RedditSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
+INFO: 2023-02-01 16:26:31,892: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,892: _walk_modules() 'Jumble loading module in RedditDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
+INFO: 2023-02-01 16:26:31,894: _walk_modules() 'Jumble loading module in WallhavenLegacyDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/WallhavenLegacyDownloader.py'
+INFO: 2023-02-01 16:26:31,895: _walk_modules() 'Jumble loading module in EarthviewDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
+INFO: 2023-02-01 16:26:31,896: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-02-01 16:26:31,920: log_options() 'Loaded options:'
+INFO: 2023-02-01 16:26:31,920: log_options() 'change_enabled = False'
+INFO: 2023-02-01 16:26:31,920: log_options() 'change_interval = 300'
+INFO: 2023-02-01 16:26:31,920: log_options() 'change_on_start = False'
+INFO: 2023-02-01 16:26:31,921: log_options() 'clipboard_enabled = False'
+INFO: 2023-02-01 16:26:31,921: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2023-02-01 16:26:31,921: log_options() 'clipboard_use_whitelist = True'
+INFO: 2023-02-01 16:26:31,921: log_options() 'clock_date_font = Serif 30'
+INFO: 2023-02-01 16:26:31,921: log_options() 'clock_enabled = False'
+INFO: 2023-02-01 16:26:31,921: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2023-02-01 16:26:31,921: log_options() 'clock_font = Serif 70'
+INFO: 2023-02-01 16:26:31,921: log_options() 'configfile = /home/sunnyarco/.config/variety/variety.conf'
+INFO: 2023-02-01 16:26:31,921: log_options() 'copyto_enabled = False'
+INFO: 2023-02-01 16:26:31,921: log_options() 'copyto_folder = Default'
+INFO: 2023-02-01 16:26:31,921: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2023-02-01 16:26:31,921: log_options() 'desired_color_enabled = False'
+INFO: 2023-02-01 16:26:31,921: log_options() 'download_folder = /home/sunnyarco/.config/variety/Downloaded'
+INFO: 2023-02-01 16:26:31,922: log_options() 'download_preference_ratio = 0.9'
+INFO: 2023-02-01 16:26:31,922: log_options() 'favorites_folder = /home/sunnyarco/.config/variety/Favorites'
+INFO: 2023-02-01 16:26:31,922: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2023-02-01 16:26:31,922: log_options() 'fetched_folder = /home/sunnyarco/.config/variety/Fetched'
+INFO: 2023-02-01 16:26:31,922: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2023-02-01 16:26:31,922: log_options() 'get_wallpaper_script = /home/sunnyarco/.config/variety/scripts/get_wallpaper_arco'
+INFO: 2023-02-01 16:26:31,922: log_options() 'icon = Light'
+INFO: 2023-02-01 16:26:31,922: log_options() 'internet_enabled = True'
+INFO: 2023-02-01 16:26:31,922: log_options() 'lightness_enabled = False'
+INFO: 2023-02-01 16:26:31,922: log_options() 'lightness_mode = 0'
+INFO: 2023-02-01 16:26:31,922: log_options() 'min_rating = 4'
+INFO: 2023-02-01 16:26:31,922: log_options() 'min_rating_enabled = False'
+INFO: 2023-02-01 16:26:31,923: log_options() 'min_size = 80'
+INFO: 2023-02-01 16:26:31,923: log_options() 'min_size_enabled = True'
+INFO: 2023-02-01 16:26:31,923: log_options() 'quota_enabled = True'
+INFO: 2023-02-01 16:26:31,923: log_options() 'quota_size = 1000'
+INFO: 2023-02-01 16:26:31,923: log_options() 'quotes_authors = '
+INFO: 2023-02-01 16:26:31,923: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2023-02-01 16:26:31,923: log_options() 'quotes_bg_opacity = 55'
+INFO: 2023-02-01 16:26:31,923: log_options() 'quotes_change_enabled = False'
+INFO: 2023-02-01 16:26:31,923: log_options() 'quotes_change_interval = 300'
+INFO: 2023-02-01 16:26:31,923: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2023-02-01 16:26:31,923: log_options() 'quotes_enabled = False'
+INFO: 2023-02-01 16:26:31,923: log_options() 'quotes_favorites_file = /home/sunnyarco/.config/variety/favorite_quotes.txt'
+INFO: 2023-02-01 16:26:31,923: log_options() 'quotes_font = Serif 30'
+INFO: 2023-02-01 16:26:31,923: log_options() 'quotes_hpos = 100'
+INFO: 2023-02-01 16:26:31,924: log_options() 'quotes_max_length = 250'
+INFO: 2023-02-01 16:26:31,924: log_options() 'quotes_tags = '
+INFO: 2023-02-01 16:26:31,924: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2023-02-01 16:26:31,924: log_options() 'quotes_text_shadow = False'
+INFO: 2023-02-01 16:26:31,924: log_options() 'quotes_vpos = 40'
+INFO: 2023-02-01 16:26:31,924: log_options() 'quotes_width = 70'
+INFO: 2023-02-01 16:26:31,924: log_options() 'safe_mode = False'
+INFO: 2023-02-01 16:26:31,924: log_options() 'set_wallpaper_script = /home/sunnyarco/.config/variety/scripts/set_wallpaper_arco'
+INFO: 2023-02-01 16:26:31,924: log_options() 'slideshow_custom_enabled = False'
+INFO: 2023-02-01 16:26:31,924: log_options() 'slideshow_custom_folder = /home/sunnyarco/Pictures'
+INFO: 2023-02-01 16:26:31,924: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2023-02-01 16:26:31,924: log_options() 'slideshow_fade = 0.4'
+INFO: 2023-02-01 16:26:31,924: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2023-02-01 16:26:31,925: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2023-02-01 16:26:31,925: log_options() 'slideshow_monitor = All'
+INFO: 2023-02-01 16:26:31,925: log_options() 'slideshow_pan = 0.05'
+INFO: 2023-02-01 16:26:31,925: log_options() 'slideshow_seconds = 6.0'
+INFO: 2023-02-01 16:26:31,925: log_options() 'slideshow_sort_order = Random'
+INFO: 2023-02-01 16:26:31,925: log_options() 'slideshow_sources_enabled = True'
+INFO: 2023-02-01 16:26:31,925: log_options() 'slideshow_zoom = 0.2'
+INFO: 2023-02-01 16:26:31,925: log_options() 'smart_enabled = False'
+INFO: 2023-02-01 16:26:31,925: log_options() 'smart_notice_shown = False'
+INFO: 2023-02-01 16:26:31,925: log_options() 'smart_register_shown = False'
+INFO: 2023-02-01 16:26:31,925: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [True, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [False, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [False, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com']]'
+INFO: 2023-02-01 16:26:31,925: log_options() 'stats_enabled = True'
+INFO: 2023-02-01 16:26:31,926: log_options() 'stats_notice_shown = False'
+INFO: 2023-02-01 16:26:31,926: log_options() 'sync_enabled = True'
+INFO: 2023-02-01 16:26:31,926: log_options() 'use_landscape_enabled = True'
+INFO: 2023-02-01 16:26:31,926: log_options() 'wallhaven_api_key = '
+INFO: 2023-02-01 16:26:31,926: log_options() 'wallpaper_auto_rotate = True'
+INFO: 2023-02-01 16:26:31,926: log_options() 'wallpaper_display_mode = os'
+INFO: 2023-02-01 16:26:31,926: reload_config() 'No need to clear prepared queue'
+INFO: 2023-02-01 16:26:31,926: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background63.jpg'
+INFO: 2023-02-01 16:26:31,931: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+INFO: 2023-02-01 16:26:31,932: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 300'
+INFO: 2023-02-01 16:26:31,932: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background63.jpg'
+INFO: 2023-02-01 16:26:31,936: regular_change_thread() 'regular_change thread running'
+INFO: 2023-02-01 16:26:31,937: regular_change_thread() 'regular_change: waiting till user resumes'
+INFO: 2023-02-01 16:26:31,937: prepare_thread() 'Prepare thread running'
+INFO: 2023-02-01 16:26:31,937: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2023-02-01 16:26:31,937: prepare_thread() 'Preparing some images'
+INFO: 2023-02-01 16:26:32,031: update_indicator_icon() 'Creating indicator'
+INFO: 2023-02-01 16:26:32,034: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background63.jpg, time: 1675248992.0346863'
+INFO: 2023-02-01 16:26:32,039: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background63.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-f713d4e567d314dbc91ee471cc4627ff.jpg'
+WARNING: 2023-02-01 16:26:32,047: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2023-02-01 16:26:32,048: create_indicator() 'indicator backend: AppIndicator3'
+INFO: 2023-02-01 16:26:32,099: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2023-02-01 16:26:32,239: prepare_thread() 'After search prepared buffer contains 100 images'
+INFO: 2023-02-01 16:26:32,482: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background63.jpg'
+INFO: 2023-02-01 16:26:33,856: reload() 'Reloading preferences dialog'
+INFO: 2023-02-01 16:26:34,240: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 16:26:34,848: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg, time: 1675248994.8482063'
+INFO: 2023-02-01 16:26:40,686: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-7d1dc6ee5abc50322603886686df9974.jpg'
+INFO: 2023-02-01 16:26:42,550: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg'
+INFO: 2023-02-01 16:26:51,955: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+INFO: 2023-02-01 16:26:54,366: server_options_thread() 'Fetched server options: {'flickr': {'min_fill_queue_interval': 1200, 'min_download_interval': 1200}, 'wallbase': {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}, 'wallhaven': {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}, 'wallpapers.net': {'min_fill_queue_interval': 601, 'min_download_interval': 0}, 'unsplash': {'min_fill_queue_interval': 20000000000, 'min_download_interval': 20000000000}, 'unsplash_v2': {'min_fill_queue_interval': 3600, 'min_download_interval': 1800}, 'status_message': {'0.0.1': '', '*': ''}}'
+INFO: 2023-02-01 16:30:16,605: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 16:30:16,610: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg, time: 1675249216.6105676'
+INFO: 2023-02-01 16:30:16,611: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-ef1385710c9549e788c9b8f08d0d8660.jpg'
+INFO: 2023-02-01 16:30:16,742: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg'
+INFO: 2023-02-01 16:30:17,091: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 16:30:17,563: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 16:30:17,611: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg, time: 1675249217.611272'
+INFO: 2023-02-01 16:30:25,138: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-26a59862f1c5e2f8b0b6fd45b98bd0bf.jpg'
+INFO: 2023-02-01 16:30:25,261: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg'
+INFO: 2023-02-01 16:30:37,925: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 16:30:37,931: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg, time: 1675249237.9310145'
+INFO: 2023-02-01 16:30:37,931: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-77f5a1ab14971b81a0ba36bf6185e6b8.jpg'
+INFO: 2023-02-01 16:30:39,808: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg'
+INFO: 2023-02-01 16:30:46,703: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 16:30:46,710: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg, time: 1675249246.710207'
+INFO: 2023-02-01 16:30:48,154: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-6ac4284d25c663def4a141f3e81b5c8d.jpg'
+INFO: 2023-02-01 16:30:48,279: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg'
+INFO: 2023-02-01 16:32:21,320: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 16:36:00,497: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 16:36:00,503: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg, time: 1675249560.5036118'
+INFO: 2023-02-01 16:36:00,504: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-2b0dbcfeb28c0771787632bae806720e.jpg'
+INFO: 2023-02-01 16:36:02,374: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg'
+INFO: 2023-02-01 16:38:05,878: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 16:38:05,884: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg, time: 1675249685.8839803'
+INFO: 2023-02-01 16:38:05,884: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-bf6957d888fd57aa237ac2f6fc5ea34a.jpg'
+INFO: 2023-02-01 16:38:06,012: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg'
+INFO: 2023-02-01 16:38:06,419: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 16:38:06,884: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg, time: 1675249686.8844526'
+INFO: 2023-02-01 16:38:14,109: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-bf7da2854123534a78fed64d31f6ac79.jpg'
+INFO: 2023-02-01 16:38:15,988: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg'
+INFO: 2023-02-01 16:40:04,167: process_command() 'Received command: ['-f']'
+INFO: 2023-02-01 16:40:04,184: move_or_copy_file() 'Copied /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg to /home/sunnyarco/.config/variety/Favorites'
+INFO: 2023-02-01 16:40:04,184: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg'
+INFO: 2023-02-01 17:50:50,677: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:50:50,683: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background63.jpg, time: 1675254050.683675'
+INFO: 2023-02-01 17:50:50,684: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background63.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-2713fe44b300c463b06024e6362628eb.jpg'
+INFO: 2023-02-01 17:50:50,898: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background63.jpg'
+INFO: 2023-02-01 17:52:06,346: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:06,349: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/archlinux-login-backgrounds/background52.jpg'
+INFO: 2023-02-01 17:52:06,349: prepare_thread() 'Prepared buffer contains 99 images'
+INFO: 2023-02-01 17:52:06,349: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background52.jpg, time: 1675254126.3497455'
+INFO: 2023-02-01 17:52:06,460: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background52.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-9706c44ed5dadd6a6f13b35fea964489.jpg'
+INFO: 2023-02-01 17:52:06,992: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background52.jpg'
+INFO: 2023-02-01 17:52:07,577: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:07,583: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/arcolinux/arco-login-plasma.jpg'
+INFO: 2023-02-01 17:52:07,583: prepare_thread() 'Prepared buffer contains 98 images'
+INFO: 2023-02-01 17:52:07,583: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux/arco-login-plasma.jpg, time: 1675254127.5837255'
+INFO: 2023-02-01 17:52:08,017: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:08,021: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/archlinux-login-backgrounds/background34.jpg'
+INFO: 2023-02-01 17:52:08,022: prepare_thread() 'Prepared buffer contains 97 images'
+INFO: 2023-02-01 17:52:08,237: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:08,241: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/archlinux-login-backgrounds/background36.jpg'
+INFO: 2023-02-01 17:52:08,241: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 17:52:08,349: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 17:52:08,460: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:08,467: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/archlinux-login-backgrounds/background47.jpg'
+INFO: 2023-02-01 17:52:08,467: prepare_thread() 'Prepared buffer contains 95 images'
+INFO: 2023-02-01 17:52:08,584: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background47.jpg, time: 1675254128.5840218'
+INFO: 2023-02-01 17:52:08,826: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:08,831: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg'
+INFO: 2023-02-01 17:52:08,831: prepare_thread() 'Prepared buffer contains 94 images'
+INFO: 2023-02-01 17:52:09,584: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 17:52:09,584: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg, time: 1675254129.5845716'
+INFO: 2023-02-01 17:52:10,022: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 17:52:10,242: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 17:52:10,468: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 17:52:10,833: trigger_download() 'Triggering download thread to check if download needed and possible'
+ERROR: 2023-02-01 17:52:16,992: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:52:17,202: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/arcolinux/arco-login-plasma.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-ae5e7df50dbb5d87bb2a422b062bedb3.jpg'
+INFO: 2023-02-01 17:52:17,435: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:17,438: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 17:52:17,438: prepare_thread() 'Prepared buffer contains 93 images'
+INFO: 2023-02-01 17:52:17,438: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg, time: 1675254137.4389305'
+INFO: 2023-02-01 17:52:17,617: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/arco-login-plasma.jpg'
+INFO: 2023-02-01 17:52:19,439: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 17:52:20,025: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:20,029: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/arcolinux/koi-fishes-1920x1080.png'
+INFO: 2023-02-01 17:52:20,030: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux/koi-fishes-1920x1080.png, time: 1675254140.0303118'
+INFO: 2023-02-01 17:52:20,030: prepare_thread() 'Prepared buffer contains 92 images'
+INFO: 2023-02-01 17:52:22,031: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 17:52:23,454: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:23,460: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/arcolinux-dual/coding.jpg'
+INFO: 2023-02-01 17:52:23,460: prepare_thread() 'Prepared buffer contains 91 images'
+INFO: 2023-02-01 17:52:23,461: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux-dual/coding.jpg, time: 1675254143.4616454'
+INFO: 2023-02-01 17:52:25,462: trigger_download() 'Triggering download thread to check if download needed and possible'
+ERROR: 2023-02-01 17:52:27,618: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:52:27,627: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background47.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-31fa7a57ea04edc78e500d94a7b4096a.jpg'
+INFO: 2023-02-01 17:52:29,814: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background47.jpg'
+INFO: 2023-02-01 17:52:30,199: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:30,203: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg'
+INFO: 2023-02-01 17:52:30,203: prepare_thread() 'Prepared buffer contains 90 images'
+INFO: 2023-02-01 17:52:30,203: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg, time: 1675254150.2038434'
+INFO: 2023-02-01 17:52:32,204: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 17:52:36,110: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:36,115: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png'
+INFO: 2023-02-01 17:52:36,116: prepare_thread() 'Prepared buffer contains 89 images'
+INFO: 2023-02-01 17:52:36,116: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png, time: 1675254156.1165957'
+INFO: 2023-02-01 17:52:38,117: trigger_download() 'Triggering download thread to check if download needed and possible'
+ERROR: 2023-02-01 17:52:39,816: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:52:39,913: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-5f6741eb0772b104afddc656e016a516.jpg'
+INFO: 2023-02-01 17:52:40,760: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg'
+ERROR: 2023-02-01 17:52:50,761: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:52:51,673: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-6ae26b54a49ebafedd563e8c70dcde97.jpg'
+INFO: 2023-02-01 17:52:53,683: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 17:52:56,795: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:52:56,801: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/arcolinux-candy/candy-05.jpg'
+INFO: 2023-02-01 17:52:56,801: prepare_thread() 'Prepared buffer contains 88 images'
+INFO: 2023-02-01 17:52:56,802: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux-candy/candy-05.jpg, time: 1675254176.8026369'
+INFO: 2023-02-01 17:52:58,802: trigger_download() 'Triggering download thread to check if download needed and possible'
+ERROR: 2023-02-01 17:53:03,684: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:53:04,024: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/arcolinux/koi-fishes-1920x1080.png -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-0b7defadc7cb1640384b7d8bf064d32c.jpg'
+INFO: 2023-02-01 17:53:05,189: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/koi-fishes-1920x1080.png'
+INFO: 2023-02-01 17:53:14,809: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/arcolinux-dual/coding.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-2f2e3d5c73b6d3138f24175e36a24037.jpg'
+INFO: 2023-02-01 17:53:15,892: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux-dual/coding.jpg'
+ERROR: 2023-02-01 17:53:25,893: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:53:26,605: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-ee2d63259e363fbd6f26479773f75ee8.jpg'
+INFO: 2023-02-01 17:53:31,373: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg'
+ERROR: 2023-02-01 17:53:41,374: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:53:41,557: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-034474f1435db1ea38dc390cb775334f.jpg'
+INFO: 2023-02-01 17:53:45,596: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png'
+ERROR: 2023-02-01 17:53:55,596: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:53:56,093: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/arcolinux-candy/candy-05.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-c023c45a973af26711da4fe2b8fdc007.jpg'
+INFO: 2023-02-01 17:53:59,620: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux-candy/candy-05.jpg'
+ERROR: 2023-02-01 17:54:09,622: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:54:39,760: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 17:54:39,765: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 17:54:39,770: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png, time: 1675254279.770351'
+INFO: 2023-02-01 17:54:39,772: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-d6b4f4823e6f19c159609b809a5636af.jpg'
+INFO: 2023-02-01 17:54:39,968: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png'
+INFO: 2023-02-01 17:54:40,770: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux-candy/candy-05.jpg, time: 1675254280.770941'
+ERROR: 2023-02-01 17:54:49,969: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:54:50,020: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/arcolinux-candy/candy-05.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-1ef8da82795020543691c5cf1f081946.jpg'
+INFO: 2023-02-01 17:54:51,175: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux-candy/candy-05.jpg'
+ERROR: 2023-02-01 17:55:01,176: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:56:52,599: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 17:56:53,062: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png, time: 1675254413.0621388'
+INFO: 2023-02-01 17:56:53,216: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-27268015a5757b7b34de93d9c1c093ec.jpg'
+INFO: 2023-02-01 17:56:58,427: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png'
+ERROR: 2023-02-01 17:57:08,428: set_desktop_wallpaper() 'Timeout while running set_wallpaper script, killed'
+INFO: 2023-02-01 17:59:58,939: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 17:59:58,945: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg, time: 1675254598.9455447'
+INFO: 2023-02-01 17:59:58,946: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-115ae099ae195b2ac4b22635119a4644.jpg'
+INFO: 2023-02-01 17:59:59,111: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg'
+INFO: 2023-02-01 18:00:45,686: process_command() 'Received command: ['-n']'
+INFO: 2023-02-01 18:00:45,691: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png, time: 1675254645.6915393'
+INFO: 2023-02-01 18:00:45,691: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-fca8b8c7e7ecd33c969a65b028a48d59.jpg'
+INFO: 2023-02-01 18:00:45,838: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/att-plain-02.png'
+INFO: 2023-02-01 18:02:23,867: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 18:02:23,872: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg, time: 1675254743.8726294'
+INFO: 2023-02-01 18:02:23,873: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-24b396f19a8451932f71cbabc175047f.jpg'
+INFO: 2023-02-01 18:02:23,981: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg'
+INFO: 2023-02-01 18:02:52,114: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 18:02:52,120: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux-dual/coding.jpg, time: 1675254772.120023'
+INFO: 2023-02-01 18:02:52,120: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/arcolinux-dual/coding.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-d1197eb707524a8b689c4dd0489828fc.jpg'
+INFO: 2023-02-01 18:02:52,379: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux-dual/coding.jpg'
+INFO: 2023-02-01 18:03:15,965: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 18:03:15,970: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux/koi-fishes-1920x1080.png, time: 1675254795.9708998'
+INFO: 2023-02-01 18:03:15,971: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/arcolinux/koi-fishes-1920x1080.png -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-fc481163619cfab5809370f3578b5b78.jpg'
+INFO: 2023-02-01 18:03:16,650: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/koi-fishes-1920x1080.png'
+INFO: 2023-02-01 18:03:34,555: process_command() 'Received command: ['-f']'
+INFO: 2023-02-01 18:03:34,683: move_or_copy_file() 'Copied /usr/share/backgrounds/arcolinux/koi-fishes-1920x1080.png to /home/sunnyarco/.config/variety/Favorites'
+INFO: 2023-02-01 18:03:34,683: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/koi-fishes-1920x1080.png'
+INFO: 2023-02-01 18:08:53,863: process_command() 'Received command: ['-p']'
+INFO: 2023-02-01 18:08:53,866: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg, time: 1675255133.8668733'
+INFO: 2023-02-01 18:08:53,867: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-7effa0aed3e433199ba40ba9627aa2f1.jpg'
+INFO: 2023-02-01 18:08:54,224: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 18:10:00,779: reload() 'Reloading preferences dialog'
+INFO: 2023-02-01 18:10:32,686: process_command() 'Received command: ['-f']'
+INFO: 2023-02-01 18:10:32,731: move_or_copy_file() 'Copied /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg to /home/sunnyarco/.config/variety/Favorites'
+INFO: 2023-02-01 18:10:32,731: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 18:10:53,063: apply() 'Applying preferences'
+INFO: 2023-02-01 18:10:53,078: reload_config() 'Creating new downloader for type apod, location NASA's Astronomy Picture of the Day'
+INFO: 2023-02-01 18:10:53,078: makedirs() 'Creating folder /home/sunnyarco/.config/variety/Downloaded/nasa_apod'
+INFO: 2023-02-01 18:10:53,079: log_options() 'Loaded options:'
+INFO: 2023-02-01 18:10:53,079: log_options() 'change_enabled = False'
+INFO: 2023-02-01 18:10:53,079: log_options() 'change_interval = 300'
+INFO: 2023-02-01 18:10:53,079: log_options() 'change_on_start = False'
+INFO: 2023-02-01 18:10:53,079: log_options() 'clipboard_enabled = False'
+INFO: 2023-02-01 18:10:53,079: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2023-02-01 18:10:53,079: log_options() 'clipboard_use_whitelist = True'
+INFO: 2023-02-01 18:10:53,079: log_options() 'clock_date_font = Serif 30'
+INFO: 2023-02-01 18:10:53,079: log_options() 'clock_enabled = False'
+INFO: 2023-02-01 18:10:53,080: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2023-02-01 18:10:53,080: log_options() 'clock_font = Serif 70'
+INFO: 2023-02-01 18:10:53,080: log_options() 'configfile = /home/sunnyarco/.config/variety/variety.conf'
+INFO: 2023-02-01 18:10:53,080: log_options() 'copyto_enabled = False'
+INFO: 2023-02-01 18:10:53,080: log_options() 'copyto_folder = Default'
+INFO: 2023-02-01 18:10:53,080: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2023-02-01 18:10:53,080: log_options() 'desired_color_enabled = False'
+INFO: 2023-02-01 18:10:53,080: log_options() 'download_folder = /home/sunnyarco/.config/variety/Downloaded'
+INFO: 2023-02-01 18:10:53,080: log_options() 'download_preference_ratio = 0.9'
+INFO: 2023-02-01 18:10:53,080: log_options() 'favorites_folder = /home/sunnyarco/.config/variety/Favorites'
+INFO: 2023-02-01 18:10:53,080: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2023-02-01 18:10:53,080: log_options() 'fetched_folder = /home/sunnyarco/.config/variety/Fetched'
+INFO: 2023-02-01 18:10:53,080: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2023-02-01 18:10:53,080: log_options() 'get_wallpaper_script = /home/sunnyarco/.config/variety/scripts/get_wallpaper_arco'
+INFO: 2023-02-01 18:10:53,080: log_options() 'icon = Light'
+INFO: 2023-02-01 18:10:53,080: log_options() 'internet_enabled = True'
+INFO: 2023-02-01 18:10:53,081: log_options() 'lightness_enabled = False'
+INFO: 2023-02-01 18:10:53,081: log_options() 'lightness_mode = 0'
+INFO: 2023-02-01 18:10:53,081: log_options() 'min_rating = 4'
+INFO: 2023-02-01 18:10:53,081: log_options() 'min_rating_enabled = False'
+INFO: 2023-02-01 18:10:53,081: log_options() 'min_size = 80'
+INFO: 2023-02-01 18:10:53,081: log_options() 'min_size_enabled = True'
+INFO: 2023-02-01 18:10:53,081: log_options() 'quota_enabled = True'
+INFO: 2023-02-01 18:10:53,081: log_options() 'quota_size = 1000'
+INFO: 2023-02-01 18:10:53,081: log_options() 'quotes_authors = '
+INFO: 2023-02-01 18:10:53,081: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2023-02-01 18:10:53,081: log_options() 'quotes_bg_opacity = 55'
+INFO: 2023-02-01 18:10:53,081: set_visible() 'Showing indicator icon'
+INFO: 2023-02-01 18:10:53,081: log_options() 'quotes_change_enabled = False'
+INFO: 2023-02-01 18:10:53,082: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_change_interval = 300'
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_enabled = False'
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_favorites_file = /home/sunnyarco/.config/variety/favorite_quotes.txt'
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_font = Serif 30'
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_hpos = 100'
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_max_length = 250'
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_tags = '
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_text_shadow = False'
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_vpos = 40'
+INFO: 2023-02-01 18:10:53,082: log_options() 'quotes_width = 70'
+INFO: 2023-02-01 18:10:53,083: log_options() 'safe_mode = False'
+INFO: 2023-02-01 18:10:53,083: log_options() 'set_wallpaper_script = /home/sunnyarco/.config/variety/scripts/set_wallpaper_arco'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_custom_enabled = False'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_custom_folder = /home/sunnyarco/Pictures'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_fade = 0.4'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_monitor = All'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_pan = 0.05'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_seconds = 6.0'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_sort_order = Random'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_sources_enabled = True'
+INFO: 2023-02-01 18:10:53,083: log_options() 'slideshow_zoom = 0.2'
+INFO: 2023-02-01 18:10:53,083: log_options() 'smart_enabled = False'
+INFO: 2023-02-01 18:10:53,083: log_options() 'smart_notice_shown = False'
+INFO: 2023-02-01 18:10:53,084: log_options() 'smart_register_shown = False'
+INFO: 2023-02-01 18:10:53,084: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [True, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [True, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [False, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com']]'
+INFO: 2023-02-01 18:10:53,084: log_options() 'stats_enabled = True'
+INFO: 2023-02-01 18:10:53,084: log_options() 'stats_notice_shown = False'
+INFO: 2023-02-01 18:10:53,084: log_options() 'sync_enabled = True'
+INFO: 2023-02-01 18:10:53,084: log_options() 'use_landscape_enabled = True'
+INFO: 2023-02-01 18:10:53,084: log_options() 'wallhaven_api_key = '
+INFO: 2023-02-01 18:10:53,084: log_options() 'wallpaper_auto_rotate = True'
+INFO: 2023-02-01 18:10:53,084: log_options() 'wallpaper_display_mode = os'
+INFO: 2023-02-01 18:10:53,084: clear_prepared_queue() 'Clearing prepared queue'
+INFO: 2023-02-01 18:10:53,084: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 18:10:53,084: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2023-02-01 18:10:53,085: prepare_thread() 'Preparing some images'
+INFO: 2023-02-01 18:10:53,086: regular_change_thread() 'regular_change: waiting till user resumes'
+INFO: 2023-02-01 18:10:53,087: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:10:53,087: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:10:53,087: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:10:53,087: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:10:53,087: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:10:53,088: download_one() 'NASA Astro Pic of the Day: Queue size: 0'
+INFO: 2023-02-01 18:10:53,088: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:10:53,088: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:10:53,088: download_one() 'NASA Astro Pic of the Day: Filling queue'
+INFO: 2023-02-01 18:10:53,088: fill_queue() 'Filling APOD queue from Archive'
+INFO: 2023-02-01 18:10:53,187: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg, time: 1675255253.1870801'
+INFO: 2023-02-01 18:10:53,187: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-80106e2fab7ca4cc14d28655c9a8c21e.jpg'
+INFO: 2023-02-01 18:10:53,498: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 18:10:55,260: prepare_thread() 'After search prepared buffer contains 96 images'
+INFO: 2023-02-01 18:10:55,260: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:10:55,735: download_one() 'NASA Astro Pic of the Day: Queue populated with 730 URLs'
+INFO: 2023-02-01 18:10:55,735: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap210306.html'
+INFO: 2023-02-01 18:10:56,190: apply() 'Applying preferences'
+INFO: 2023-02-01 18:10:56,202: log_options() 'Loaded options:'
+INFO: 2023-02-01 18:10:56,202: set_visible() 'Showing indicator icon'
+INFO: 2023-02-01 18:10:56,202: log_options() 'change_enabled = False'
+INFO: 2023-02-01 18:10:56,202: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2023-02-01 18:10:56,203: log_options() 'change_interval = 300'
+INFO: 2023-02-01 18:10:56,203: log_options() 'change_on_start = False'
+INFO: 2023-02-01 18:10:56,203: log_options() 'clipboard_enabled = False'
+INFO: 2023-02-01 18:10:56,203: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2023-02-01 18:10:56,203: log_options() 'clipboard_use_whitelist = True'
+INFO: 2023-02-01 18:10:56,203: log_options() 'clock_date_font = Serif 30'
+INFO: 2023-02-01 18:10:56,203: log_options() 'clock_enabled = False'
+INFO: 2023-02-01 18:10:56,204: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2023-02-01 18:10:56,204: log_options() 'clock_font = Serif 70'
+INFO: 2023-02-01 18:10:56,204: log_options() 'configfile = /home/sunnyarco/.config/variety/variety.conf'
+INFO: 2023-02-01 18:10:56,204: log_options() 'copyto_enabled = False'
+INFO: 2023-02-01 18:10:56,204: log_options() 'copyto_folder = Default'
+INFO: 2023-02-01 18:10:56,204: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2023-02-01 18:10:56,204: log_options() 'desired_color_enabled = False'
+INFO: 2023-02-01 18:10:56,204: log_options() 'download_folder = /home/sunnyarco/.config/variety/Downloaded'
+INFO: 2023-02-01 18:10:56,204: log_options() 'download_preference_ratio = 0.9'
+INFO: 2023-02-01 18:10:56,204: log_options() 'favorites_folder = /home/sunnyarco/.config/variety/Favorites'
+INFO: 2023-02-01 18:10:56,204: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2023-02-01 18:10:56,205: log_options() 'fetched_folder = /home/sunnyarco/.config/variety/Fetched'
+INFO: 2023-02-01 18:10:56,205: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2023-02-01 18:10:56,205: log_options() 'get_wallpaper_script = /home/sunnyarco/.config/variety/scripts/get_wallpaper_arco'
+INFO: 2023-02-01 18:10:56,205: log_options() 'icon = Light'
+INFO: 2023-02-01 18:10:56,205: log_options() 'internet_enabled = True'
+INFO: 2023-02-01 18:10:56,205: log_options() 'lightness_enabled = False'
+INFO: 2023-02-01 18:10:56,205: log_options() 'lightness_mode = 0'
+INFO: 2023-02-01 18:10:56,205: log_options() 'min_rating = 4'
+INFO: 2023-02-01 18:10:56,205: log_options() 'min_rating_enabled = False'
+INFO: 2023-02-01 18:10:56,205: log_options() 'min_size = 80'
+INFO: 2023-02-01 18:10:56,205: log_options() 'min_size_enabled = True'
+INFO: 2023-02-01 18:10:56,205: log_options() 'quota_enabled = True'
+INFO: 2023-02-01 18:10:56,205: log_options() 'quota_size = 1000'
+INFO: 2023-02-01 18:10:56,205: log_options() 'quotes_authors = '
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_bg_opacity = 55'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_change_enabled = False'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_change_interval = 300'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_enabled = False'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_favorites_file = /home/sunnyarco/.config/variety/favorite_quotes.txt'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_font = Serif 30'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_hpos = 100'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_max_length = 250'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_tags = '
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_text_shadow = False'
+INFO: 2023-02-01 18:10:56,206: log_options() 'quotes_vpos = 40'
+INFO: 2023-02-01 18:10:56,207: log_options() 'quotes_width = 70'
+INFO: 2023-02-01 18:10:56,207: log_options() 'safe_mode = False'
+INFO: 2023-02-01 18:10:56,207: log_options() 'set_wallpaper_script = /home/sunnyarco/.config/variety/scripts/set_wallpaper_arco'
+INFO: 2023-02-01 18:10:56,207: log_options() 'slideshow_custom_enabled = False'
+INFO: 2023-02-01 18:10:56,207: log_options() 'slideshow_custom_folder = /home/sunnyarco/Pictures'
+INFO: 2023-02-01 18:10:56,207: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2023-02-01 18:10:56,207: log_options() 'slideshow_fade = 0.4'
+INFO: 2023-02-01 18:10:56,207: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2023-02-01 18:10:56,207: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2023-02-01 18:10:56,207: log_options() 'slideshow_monitor = All'
+INFO: 2023-02-01 18:10:56,207: log_options() 'slideshow_pan = 0.05'
+INFO: 2023-02-01 18:10:56,207: log_options() 'slideshow_seconds = 6.0'
+INFO: 2023-02-01 18:10:56,207: log_options() 'slideshow_sort_order = Random'
+INFO: 2023-02-01 18:10:56,207: log_options() 'slideshow_sources_enabled = True'
+INFO: 2023-02-01 18:10:56,208: log_options() 'slideshow_zoom = 0.2'
+INFO: 2023-02-01 18:10:56,208: log_options() 'smart_enabled = False'
+INFO: 2023-02-01 18:10:56,208: log_options() 'smart_notice_shown = False'
+INFO: 2023-02-01 18:10:56,208: log_options() 'smart_register_shown = False'
+INFO: 2023-02-01 18:10:56,208: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [True, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [False, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [False, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com']]'
+INFO: 2023-02-01 18:10:56,208: log_options() 'stats_enabled = True'
+INFO: 2023-02-01 18:10:56,208: log_options() 'stats_notice_shown = False'
+INFO: 2023-02-01 18:10:56,208: log_options() 'sync_enabled = True'
+INFO: 2023-02-01 18:10:56,208: log_options() 'use_landscape_enabled = True'
+INFO: 2023-02-01 18:10:56,208: log_options() 'wallhaven_api_key = '
+INFO: 2023-02-01 18:10:56,208: log_options() 'wallpaper_auto_rotate = True'
+INFO: 2023-02-01 18:10:56,208: log_options() 'wallpaper_display_mode = os'
+INFO: 2023-02-01 18:10:56,208: clear_prepared_queue() 'Clearing prepared queue'
+INFO: 2023-02-01 18:10:56,209: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 18:10:56,209: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2023-02-01 18:10:56,209: prepare_thread() 'Preparing some images'
+INFO: 2023-02-01 18:10:56,212: regular_change_thread() 'regular_change: waiting till user resumes'
+INFO: 2023-02-01 18:10:56,312: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg, time: 1675255256.3122275'
+INFO: 2023-02-01 18:10:56,525: prepare_thread() 'After search prepared buffer contains 98 images'
+INFO: 2023-02-01 18:10:56,525: prepare_thread() 'Prepared buffer contains 98 images'
+INFO: 2023-02-01 18:10:56,965: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2103/PIA24487.jpg'
+INFO: 2023-02-01 18:10:56,965: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap210306.html'
+INFO: 2023-02-01 18:10:56,965: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2103/PIA24487.jpg'
+INFO: 2023-02-01 18:10:56,965: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/PIA24487.jpg'
+INFO: 2023-02-01 18:10:57,260: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:10:57,261: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:10:58,526: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:10:58,526: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:11:01,123: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-89e0fa026915fe9a92636b7b4a6dedd1.jpg'
+INFO: 2023-02-01 18:11:01,451: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 18:11:05,662: save_locally() 'Download complete'
+INFO: 2023-02-01 18:11:05,662: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 18:11:05,664: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/nasa_apod/PIA24487.jpg to unseen_downloads'
+INFO: 2023-02-01 18:11:07,083: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/archlinux-login-backgrounds/background44.jpg'
+INFO: 2023-02-01 18:11:07,084: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background44.jpg, time: 1675255267.0846229'
+INFO: 2023-02-01 18:11:08,568: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:11:08,569: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg, time: 1675255268.569905'
+INFO: 2023-02-01 18:11:08,638: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background44.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-8cc312ed054a0f030e6ad75e5e8eb4b9.jpg'
+INFO: 2023-02-01 18:11:09,680: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background44.jpg'
+INFO: 2023-02-01 18:11:11,430: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 18:11:14,708: apply() 'Applying preferences'
+INFO: 2023-02-01 18:11:14,726: set_visible() 'Showing indicator icon'
+INFO: 2023-02-01 18:11:14,726: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2023-02-01 18:11:14,726: log_options() 'Loaded options:'
+INFO: 2023-02-01 18:11:14,727: log_options() 'change_enabled = False'
+INFO: 2023-02-01 18:11:14,727: log_options() 'change_interval = 300'
+INFO: 2023-02-01 18:11:14,727: log_options() 'change_on_start = False'
+INFO: 2023-02-01 18:11:14,727: log_options() 'clipboard_enabled = False'
+INFO: 2023-02-01 18:11:14,727: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2023-02-01 18:11:14,727: log_options() 'clipboard_use_whitelist = True'
+INFO: 2023-02-01 18:11:14,727: log_options() 'clock_date_font = Serif 30'
+INFO: 2023-02-01 18:11:14,727: log_options() 'clock_enabled = False'
+INFO: 2023-02-01 18:11:14,727: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2023-02-01 18:11:14,727: log_options() 'clock_font = Serif 70'
+INFO: 2023-02-01 18:11:14,727: log_options() 'configfile = /home/sunnyarco/.config/variety/variety.conf'
+INFO: 2023-02-01 18:11:14,727: log_options() 'copyto_enabled = False'
+INFO: 2023-02-01 18:11:14,727: log_options() 'copyto_folder = Default'
+INFO: 2023-02-01 18:11:14,727: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2023-02-01 18:11:14,727: log_options() 'desired_color_enabled = False'
+INFO: 2023-02-01 18:11:14,727: log_options() 'download_folder = /home/sunnyarco/.config/variety/Downloaded'
+INFO: 2023-02-01 18:11:14,727: log_options() 'download_preference_ratio = 0.9'
+INFO: 2023-02-01 18:11:14,727: log_options() 'favorites_folder = /home/sunnyarco/.config/variety/Favorites'
+INFO: 2023-02-01 18:11:14,727: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2023-02-01 18:11:14,727: log_options() 'fetched_folder = /home/sunnyarco/.config/variety/Fetched'
+INFO: 2023-02-01 18:11:14,727: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2023-02-01 18:11:14,727: log_options() 'get_wallpaper_script = /home/sunnyarco/.config/variety/scripts/get_wallpaper_arco'
+INFO: 2023-02-01 18:11:14,727: log_options() 'icon = Light'
+INFO: 2023-02-01 18:11:14,728: log_options() 'internet_enabled = True'
+INFO: 2023-02-01 18:11:14,728: log_options() 'lightness_enabled = False'
+INFO: 2023-02-01 18:11:14,728: log_options() 'lightness_mode = 0'
+INFO: 2023-02-01 18:11:14,728: log_options() 'min_rating = 4'
+INFO: 2023-02-01 18:11:14,728: log_options() 'min_rating_enabled = False'
+INFO: 2023-02-01 18:11:14,728: log_options() 'min_size = 80'
+INFO: 2023-02-01 18:11:14,728: log_options() 'min_size_enabled = True'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quota_enabled = True'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quota_size = 1000'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_authors = '
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_bg_opacity = 55'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_change_enabled = False'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_change_interval = 300'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_enabled = False'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_favorites_file = /home/sunnyarco/.config/variety/favorite_quotes.txt'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_font = Serif 30'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_hpos = 100'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_max_length = 250'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_tags = '
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_text_shadow = False'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_vpos = 40'
+INFO: 2023-02-01 18:11:14,728: log_options() 'quotes_width = 70'
+INFO: 2023-02-01 18:11:14,728: log_options() 'safe_mode = False'
+INFO: 2023-02-01 18:11:14,728: log_options() 'set_wallpaper_script = /home/sunnyarco/.config/variety/scripts/set_wallpaper_arco'
+INFO: 2023-02-01 18:11:14,728: log_options() 'slideshow_custom_enabled = False'
+INFO: 2023-02-01 18:11:14,728: log_options() 'slideshow_custom_folder = /home/sunnyarco/Pictures'
+INFO: 2023-02-01 18:11:14,728: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2023-02-01 18:11:14,729: log_options() 'slideshow_fade = 0.4'
+INFO: 2023-02-01 18:11:14,729: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2023-02-01 18:11:14,729: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2023-02-01 18:11:14,729: log_options() 'slideshow_monitor = All'
+INFO: 2023-02-01 18:11:14,729: log_options() 'slideshow_pan = 0.05'
+INFO: 2023-02-01 18:11:14,729: log_options() 'slideshow_seconds = 6.0'
+INFO: 2023-02-01 18:11:14,729: log_options() 'slideshow_sort_order = Random'
+INFO: 2023-02-01 18:11:14,729: log_options() 'slideshow_sources_enabled = True'
+INFO: 2023-02-01 18:11:14,729: log_options() 'slideshow_zoom = 0.2'
+INFO: 2023-02-01 18:11:14,729: log_options() 'smart_enabled = False'
+INFO: 2023-02-01 18:11:14,729: log_options() 'smart_notice_shown = False'
+INFO: 2023-02-01 18:11:14,729: log_options() 'smart_register_shown = False'
+INFO: 2023-02-01 18:11:14,729: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [True, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [True, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [False, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com']]'
+INFO: 2023-02-01 18:11:14,729: log_options() 'stats_enabled = True'
+INFO: 2023-02-01 18:11:14,729: log_options() 'stats_notice_shown = False'
+INFO: 2023-02-01 18:11:14,729: log_options() 'sync_enabled = True'
+INFO: 2023-02-01 18:11:14,729: log_options() 'use_landscape_enabled = True'
+INFO: 2023-02-01 18:11:14,729: log_options() 'wallhaven_api_key = '
+INFO: 2023-02-01 18:11:14,729: log_options() 'wallpaper_auto_rotate = True'
+INFO: 2023-02-01 18:11:14,729: log_options() 'wallpaper_display_mode = os'
+INFO: 2023-02-01 18:11:14,729: clear_prepared_queue() 'Clearing prepared queue'
+INFO: 2023-02-01 18:11:14,729: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 18:11:14,729: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2023-02-01 18:11:14,730: prepare_thread() 'Preparing some images'
+INFO: 2023-02-01 18:11:14,731: regular_change_thread() 'regular_change: waiting till user resumes'
+INFO: 2023-02-01 18:11:14,732: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:11:14,732: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:14,737: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:11:14,737: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:14,737: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:11:14,737: download_one() 'NASA Astro Pic of the Day: Queue size: 729'
+INFO: 2023-02-01 18:11:14,737: download_one() 'NASA Astro Pic of the Day: Queue populated with 729 URLs'
+INFO: 2023-02-01 18:11:14,737: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap210608.html'
+INFO: 2023-02-01 18:11:14,802: prepare_thread() 'After search prepared buffer contains 96 images'
+INFO: 2023-02-01 18:11:14,802: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:11:14,831: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg, time: 1675255274.831793'
+INFO: 2023-02-01 18:11:16,107: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2106/Jovey_JunoMajor_960.jpg'
+INFO: 2023-02-01 18:11:16,107: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap210608.html'
+INFO: 2023-02-01 18:11:16,109: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2106/Jovey_JunoMajor_960.jpg'
+INFO: 2023-02-01 18:11:16,109: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/Jovey_JunoMajor_960.jpg'
+INFO: 2023-02-01 18:11:16,802: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:11:16,803: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:11:17,668: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-18b8c9397d95a64bf86985f7df26bcbc.jpg'
+INFO: 2023-02-01 18:11:17,918: save_locally() 'Download complete'
+INFO: 2023-02-01 18:11:17,918: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background44.jpg'
+INFO: 2023-02-01 18:11:17,920: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:17,922: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:11:17,944: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:11:17,945: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:18,019: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background44.jpg'
+INFO: 2023-02-01 18:11:18,021: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:18,924: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:11:18,924: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:18,924: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:11:18,924: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:18,924: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:11:18,925: download_one() 'NASA Astro Pic of the Day: Queue size: 728'
+INFO: 2023-02-01 18:11:18,925: download_one() 'NASA Astro Pic of the Day: Queue populated with 728 URLs'
+INFO: 2023-02-01 18:11:18,925: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap220916.html'
+INFO: 2023-02-01 18:11:19,923: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:11:20,163: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2209/Tarantula-HST-ESO-Webb-LL.jpg'
+INFO: 2023-02-01 18:11:20,163: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap220916.html'
+INFO: 2023-02-01 18:11:20,163: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2209/Tarantula-HST-ESO-Webb-LL.jpg'
+INFO: 2023-02-01 18:11:20,163: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/Tarantula-HST-ESO-Webb-LL.jpg'
+INFO: 2023-02-01 18:11:22,967: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background44.jpg'
+INFO: 2023-02-01 18:11:22,969: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:25,230: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-00adb9e27e0aae7f672a98665d0b3e6a.jpg'
+INFO: 2023-02-01 18:11:25,582: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 18:11:25,585: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:25,689: apply() 'Applying preferences'
+INFO: 2023-02-01 18:11:25,702: reload_config() 'Creating new downloader for type earthview, location Google Earth View Wallpapers'
+INFO: 2023-02-01 18:11:25,702: set_visible() 'Showing indicator icon'
+INFO: 2023-02-01 18:11:25,703: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2023-02-01 18:11:25,703: makedirs() 'Creating folder /home/sunnyarco/.config/variety/Downloaded/Earth View'
+INFO: 2023-02-01 18:11:25,703: log_options() 'Loaded options:'
+INFO: 2023-02-01 18:11:25,703: log_options() 'change_enabled = False'
+INFO: 2023-02-01 18:11:25,704: log_options() 'change_interval = 300'
+INFO: 2023-02-01 18:11:25,704: log_options() 'change_on_start = False'
+INFO: 2023-02-01 18:11:25,704: log_options() 'clipboard_enabled = False'
+INFO: 2023-02-01 18:11:25,704: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2023-02-01 18:11:25,704: log_options() 'clipboard_use_whitelist = True'
+INFO: 2023-02-01 18:11:25,704: log_options() 'clock_date_font = Serif 30'
+INFO: 2023-02-01 18:11:25,704: log_options() 'clock_enabled = False'
+INFO: 2023-02-01 18:11:25,704: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2023-02-01 18:11:25,704: log_options() 'clock_font = Serif 70'
+INFO: 2023-02-01 18:11:25,704: log_options() 'configfile = /home/sunnyarco/.config/variety/variety.conf'
+INFO: 2023-02-01 18:11:25,704: log_options() 'copyto_enabled = False'
+INFO: 2023-02-01 18:11:25,704: log_options() 'copyto_folder = Default'
+INFO: 2023-02-01 18:11:25,704: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2023-02-01 18:11:25,705: log_options() 'desired_color_enabled = False'
+INFO: 2023-02-01 18:11:25,705: log_options() 'download_folder = /home/sunnyarco/.config/variety/Downloaded'
+INFO: 2023-02-01 18:11:25,705: log_options() 'download_preference_ratio = 0.9'
+INFO: 2023-02-01 18:11:25,705: log_options() 'favorites_folder = /home/sunnyarco/.config/variety/Favorites'
+INFO: 2023-02-01 18:11:25,705: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2023-02-01 18:11:25,705: log_options() 'fetched_folder = /home/sunnyarco/.config/variety/Fetched'
+INFO: 2023-02-01 18:11:25,705: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2023-02-01 18:11:25,705: log_options() 'get_wallpaper_script = /home/sunnyarco/.config/variety/scripts/get_wallpaper_arco'
+INFO: 2023-02-01 18:11:25,705: log_options() 'icon = Light'
+INFO: 2023-02-01 18:11:25,705: log_options() 'internet_enabled = True'
+INFO: 2023-02-01 18:11:25,705: log_options() 'lightness_enabled = False'
+INFO: 2023-02-01 18:11:25,705: log_options() 'lightness_mode = 0'
+INFO: 2023-02-01 18:11:25,705: log_options() 'min_rating = 4'
+INFO: 2023-02-01 18:11:25,705: log_options() 'min_rating_enabled = False'
+INFO: 2023-02-01 18:11:25,705: log_options() 'min_size = 80'
+INFO: 2023-02-01 18:11:25,706: log_options() 'min_size_enabled = True'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quota_enabled = True'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quota_size = 1000'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_authors = '
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_bg_opacity = 55'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_change_enabled = False'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_change_interval = 300'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_enabled = False'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_favorites_file = /home/sunnyarco/.config/variety/favorite_quotes.txt'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_font = Serif 30'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_hpos = 100'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_max_length = 250'
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_tags = '
+INFO: 2023-02-01 18:11:25,706: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2023-02-01 18:11:25,707: log_options() 'quotes_text_shadow = False'
+INFO: 2023-02-01 18:11:25,707: log_options() 'quotes_vpos = 40'
+INFO: 2023-02-01 18:11:25,707: log_options() 'quotes_width = 70'
+INFO: 2023-02-01 18:11:25,707: log_options() 'safe_mode = False'
+INFO: 2023-02-01 18:11:25,707: log_options() 'set_wallpaper_script = /home/sunnyarco/.config/variety/scripts/set_wallpaper_arco'
+INFO: 2023-02-01 18:11:25,707: log_options() 'slideshow_custom_enabled = False'
+INFO: 2023-02-01 18:11:25,707: log_options() 'slideshow_custom_folder = /home/sunnyarco/Pictures'
+INFO: 2023-02-01 18:11:25,707: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2023-02-01 18:11:25,707: log_options() 'slideshow_fade = 0.4'
+INFO: 2023-02-01 18:11:25,707: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2023-02-01 18:11:25,707: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2023-02-01 18:11:25,707: log_options() 'slideshow_monitor = All'
+INFO: 2023-02-01 18:11:25,707: log_options() 'slideshow_pan = 0.05'
+INFO: 2023-02-01 18:11:25,707: log_options() 'slideshow_seconds = 6.0'
+INFO: 2023-02-01 18:11:25,707: log_options() 'slideshow_sort_order = Random'
+INFO: 2023-02-01 18:11:25,707: log_options() 'slideshow_sources_enabled = True'
+INFO: 2023-02-01 18:11:25,708: log_options() 'slideshow_zoom = 0.2'
+INFO: 2023-02-01 18:11:25,708: log_options() 'smart_enabled = False'
+INFO: 2023-02-01 18:11:25,708: log_options() 'smart_notice_shown = False'
+INFO: 2023-02-01 18:11:25,708: log_options() 'smart_register_shown = False'
+INFO: 2023-02-01 18:11:25,708: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [True, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [True, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [True, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com']]'
+INFO: 2023-02-01 18:11:25,708: log_options() 'stats_enabled = True'
+INFO: 2023-02-01 18:11:25,708: log_options() 'stats_notice_shown = False'
+INFO: 2023-02-01 18:11:25,708: log_options() 'sync_enabled = True'
+INFO: 2023-02-01 18:11:25,708: log_options() 'use_landscape_enabled = True'
+INFO: 2023-02-01 18:11:25,708: log_options() 'wallhaven_api_key = '
+INFO: 2023-02-01 18:11:25,708: log_options() 'wallpaper_auto_rotate = True'
+INFO: 2023-02-01 18:11:25,708: log_options() 'wallpaper_display_mode = os'
+INFO: 2023-02-01 18:11:25,708: clear_prepared_queue() 'Clearing prepared queue'
+INFO: 2023-02-01 18:11:25,708: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:11:25,709: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2023-02-01 18:11:25,709: prepare_thread() 'Preparing some images'
+INFO: 2023-02-01 18:11:25,711: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:25,711: regular_change_thread() 'regular_change: waiting till user resumes'
+INFO: 2023-02-01 18:11:25,787: prepare_thread() 'After search prepared buffer contains 96 images'
+INFO: 2023-02-01 18:11:25,788: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:11:25,812: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg, time: 1675255285.812638'
+INFO: 2023-02-01 18:11:27,019: apply() 'Applying preferences'
+INFO: 2023-02-01 18:11:27,027: reload_config() 'Creating new downloader for type natgeo, location National Geographic's photo of the day'
+INFO: 2023-02-01 18:11:27,028: set_visible() 'Showing indicator icon'
+INFO: 2023-02-01 18:11:27,028: makedirs() 'Creating folder /home/sunnyarco/.config/variety/Downloaded/National Geographic'
+INFO: 2023-02-01 18:11:27,028: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2023-02-01 18:11:27,028: log_options() 'Loaded options:'
+INFO: 2023-02-01 18:11:27,028: log_options() 'change_enabled = False'
+INFO: 2023-02-01 18:11:27,028: log_options() 'change_interval = 300'
+INFO: 2023-02-01 18:11:27,028: log_options() 'change_on_start = False'
+INFO: 2023-02-01 18:11:27,028: log_options() 'clipboard_enabled = False'
+INFO: 2023-02-01 18:11:27,029: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2023-02-01 18:11:27,029: log_options() 'clipboard_use_whitelist = True'
+INFO: 2023-02-01 18:11:27,029: log_options() 'clock_date_font = Serif 30'
+INFO: 2023-02-01 18:11:27,029: log_options() 'clock_enabled = False'
+INFO: 2023-02-01 18:11:27,029: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2023-02-01 18:11:27,029: log_options() 'clock_font = Serif 70'
+INFO: 2023-02-01 18:11:27,029: log_options() 'configfile = /home/sunnyarco/.config/variety/variety.conf'
+INFO: 2023-02-01 18:11:27,029: log_options() 'copyto_enabled = False'
+INFO: 2023-02-01 18:11:27,029: log_options() 'copyto_folder = Default'
+INFO: 2023-02-01 18:11:27,029: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2023-02-01 18:11:27,029: log_options() 'desired_color_enabled = False'
+INFO: 2023-02-01 18:11:27,029: log_options() 'download_folder = /home/sunnyarco/.config/variety/Downloaded'
+INFO: 2023-02-01 18:11:27,029: log_options() 'download_preference_ratio = 0.9'
+INFO: 2023-02-01 18:11:27,029: log_options() 'favorites_folder = /home/sunnyarco/.config/variety/Favorites'
+INFO: 2023-02-01 18:11:27,029: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2023-02-01 18:11:27,029: log_options() 'fetched_folder = /home/sunnyarco/.config/variety/Fetched'
+INFO: 2023-02-01 18:11:27,029: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2023-02-01 18:11:27,029: log_options() 'get_wallpaper_script = /home/sunnyarco/.config/variety/scripts/get_wallpaper_arco'
+INFO: 2023-02-01 18:11:27,029: log_options() 'icon = Light'
+INFO: 2023-02-01 18:11:27,029: log_options() 'internet_enabled = True'
+INFO: 2023-02-01 18:11:27,029: log_options() 'lightness_enabled = False'
+INFO: 2023-02-01 18:11:27,029: log_options() 'lightness_mode = 0'
+INFO: 2023-02-01 18:11:27,029: log_options() 'min_rating = 4'
+INFO: 2023-02-01 18:11:27,029: log_options() 'min_rating_enabled = False'
+INFO: 2023-02-01 18:11:27,029: log_options() 'min_size = 80'
+INFO: 2023-02-01 18:11:27,029: log_options() 'min_size_enabled = True'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quota_enabled = True'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quota_size = 1000'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_authors = '
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_bg_opacity = 55'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_change_enabled = False'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_change_interval = 300'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_enabled = False'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_favorites_file = /home/sunnyarco/.config/variety/favorite_quotes.txt'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_font = Serif 30'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_hpos = 100'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_max_length = 250'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_tags = '
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_text_shadow = False'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_vpos = 40'
+INFO: 2023-02-01 18:11:27,030: log_options() 'quotes_width = 70'
+INFO: 2023-02-01 18:11:27,030: log_options() 'safe_mode = False'
+INFO: 2023-02-01 18:11:27,030: log_options() 'set_wallpaper_script = /home/sunnyarco/.config/variety/scripts/set_wallpaper_arco'
+INFO: 2023-02-01 18:11:27,030: log_options() 'slideshow_custom_enabled = False'
+INFO: 2023-02-01 18:11:27,030: log_options() 'slideshow_custom_folder = /home/sunnyarco/Pictures'
+INFO: 2023-02-01 18:11:27,030: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2023-02-01 18:11:27,030: log_options() 'slideshow_fade = 0.4'
+INFO: 2023-02-01 18:11:27,030: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2023-02-01 18:11:27,030: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2023-02-01 18:11:27,030: log_options() 'slideshow_monitor = All'
+INFO: 2023-02-01 18:11:27,030: log_options() 'slideshow_pan = 0.05'
+INFO: 2023-02-01 18:11:27,030: log_options() 'slideshow_seconds = 6.0'
+INFO: 2023-02-01 18:11:27,030: log_options() 'slideshow_sort_order = Random'
+INFO: 2023-02-01 18:11:27,031: log_options() 'slideshow_sources_enabled = True'
+INFO: 2023-02-01 18:11:27,031: log_options() 'slideshow_zoom = 0.2'
+INFO: 2023-02-01 18:11:27,031: log_options() 'smart_enabled = False'
+INFO: 2023-02-01 18:11:27,031: log_options() 'smart_notice_shown = False'
+INFO: 2023-02-01 18:11:27,031: log_options() 'smart_register_shown = False'
+INFO: 2023-02-01 18:11:27,031: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [True, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [True, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [True, 'earthview', 'Google Earth View Wallpapers'], [True, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com']]'
+INFO: 2023-02-01 18:11:27,031: log_options() 'stats_enabled = True'
+INFO: 2023-02-01 18:11:27,031: log_options() 'stats_notice_shown = False'
+INFO: 2023-02-01 18:11:27,031: log_options() 'sync_enabled = True'
+INFO: 2023-02-01 18:11:27,031: log_options() 'use_landscape_enabled = True'
+INFO: 2023-02-01 18:11:27,031: log_options() 'wallhaven_api_key = '
+INFO: 2023-02-01 18:11:27,031: log_options() 'wallpaper_auto_rotate = True'
+INFO: 2023-02-01 18:11:27,031: log_options() 'wallpaper_display_mode = os'
+INFO: 2023-02-01 18:11:27,031: clear_prepared_queue() 'Clearing prepared queue'
+INFO: 2023-02-01 18:11:27,031: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:11:27,031: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2023-02-01 18:11:27,031: prepare_thread() 'Preparing some images'
+INFO: 2023-02-01 18:11:27,032: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:27,033: regular_change_thread() 'regular_change: waiting till user resumes'
+INFO: 2023-02-01 18:11:27,105: prepare_thread() 'After search prepared buffer contains 96 images'
+INFO: 2023-02-01 18:11:27,105: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:11:27,133: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg, time: 1675255287.133868'
+INFO: 2023-02-01 18:11:27,788: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:11:27,788: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:11:29,105: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:11:29,105: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:11:32,718: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-53c969b536046143f8fee00a805d8e95.jpg'
+INFO: 2023-02-01 18:11:32,982: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:11:32,983: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:36,111: save_locally() 'Download complete'
+INFO: 2023-02-01 18:11:36,111: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg'
+INFO: 2023-02-01 18:11:36,112: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:36,112: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/nasa_apod/Tarantula-HST-ESO-Webb-LL.jpg to unseen_downloads'
+INFO: 2023-02-01 18:11:37,114: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:11:37,114: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:11:37,115: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:11:37,115: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:11:37,115: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2023-02-01 18:11:37,115: download_one() 'Earth View: Queue size: 0'
+INFO: 2023-02-01 18:11:37,115: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:11:37,115: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:11:37,115: download_one() 'Earth View: Filling queue'
+INFO: 2023-02-01 18:11:40,166: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg -auto-orient /home/sunnyarco/.config/variety/wallpaper/wallpaper-auto-rotated-93247dca5f2e6b59adeefbdee2c25781.jpg'
+INFO: 2023-02-01 18:11:40,509: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:11:40,511: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:41,212: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:11:41,214: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:43,039: process_command() 'Received command: ['-f']'
+INFO: 2023-02-01 18:11:43,048: move_or_copy_file() 'Copied /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg to /home/sunnyarco/.config/variety/Favorites'
+INFO: 2023-02-01 18:11:43,048: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:11:43,050: list_files() 'More than 1 files in the folders, stop listing'
+ERROR: 2023-02-01 18:11:47,155: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f13c05e6860>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c05e6860>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py", line 57, in fill_queue
+    queue = Util.fetch_json(DATA_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c05e6860>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+INFO: 2023-02-01 18:11:47,494: process_command() 'Received command: ['-f']'
+INFO: 2023-02-01 18:11:48,175: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:11:48,175: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:48,175: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:11:48,175: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:48,175: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2023-02-01 18:11:48,175: download_one() 'National Geographic: Queue size: 0'
+INFO: 2023-02-01 18:11:48,175: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:11:48,175: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:48,175: download_one() 'National Geographic: Filling queue'
+INFO: 2023-02-01 18:11:48,499: download_one() 'National Geographic: Queue populated with 24 URLs'
+INFO: 2023-02-01 18:11:48,499: save_locally() 'Origin URL: https://www.nationalgeographic.co.uk/photo-of-day?image=1_11'
+INFO: 2023-02-01 18:11:48,499: save_locally() 'Image URL: https://static.nationalgeographic.co.uk/files/1_11.jpg'
+INFO: 2023-02-01 18:11:48,499: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/National Geographic/1_11.jpg'
+INFO: 2023-02-01 18:11:48,731: process_command() 'Received command: ['-f']'
+INFO: 2023-02-01 18:11:49,244: save_locally() 'Download complete'
+INFO: 2023-02-01 18:11:49,244: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:11:49,246: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:49,247: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/National Geographic/1_11.jpg to unseen_downloads'
+INFO: 2023-02-01 18:11:50,249: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:11:50,250: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:50,250: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:11:50,250: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:50,250: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2023-02-01 18:11:50,250: download_one() 'National Geographic: Queue size: 23'
+INFO: 2023-02-01 18:11:50,250: download_one() 'National Geographic: Queue populated with 23 URLs'
+INFO: 2023-02-01 18:11:50,250: save_locally() 'Origin URL: https://www.nationalgeographic.co.uk/photo-of-day?image=2_16'
+INFO: 2023-02-01 18:11:50,250: save_locally() 'Image URL: https://static.nationalgeographic.co.uk/files/2_16.jpg'
+INFO: 2023-02-01 18:11:50,250: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/National Geographic/2_16.jpg'
+INFO: 2023-02-01 18:11:50,709: save_locally() 'Download complete'
+INFO: 2023-02-01 18:11:50,709: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:11:50,711: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:50,711: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/National Geographic/2_16.jpg to unseen_downloads'
+INFO: 2023-02-01 18:11:51,713: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:11:51,714: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:51,714: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:11:51,714: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:51,714: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:11:51,714: download_one() 'NASA Astro Pic of the Day: Queue size: 727'
+INFO: 2023-02-01 18:11:51,714: download_one() 'NASA Astro Pic of the Day: Queue populated with 727 URLs'
+INFO: 2023-02-01 18:11:51,714: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap220324.html'
+INFO: 2023-02-01 18:11:52,956: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2203/noirlab2209a_ngc772.jpg'
+INFO: 2023-02-01 18:11:52,956: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap220324.html'
+INFO: 2023-02-01 18:11:52,956: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2203/noirlab2209a_ngc772.jpg'
+INFO: 2023-02-01 18:11:52,956: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/noirlab2209a_ngc772.jpg'
+INFO: 2023-02-01 18:11:55,978: save_locally() 'Download complete'
+INFO: 2023-02-01 18:11:55,978: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:11:55,980: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:11:55,981: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:11:56,983: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:11:56,983: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:56,984: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:11:56,985: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:11:56,985: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:11:56,985: download_one() 'NASA Astro Pic of the Day: Queue size: 726'
+INFO: 2023-02-01 18:11:56,985: download_one() 'NASA Astro Pic of the Day: Queue populated with 726 URLs'
+INFO: 2023-02-01 18:11:56,985: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap220829.html'
+INFO: 2023-02-01 18:11:57,982: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:11:58,287: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2208/Horsehead_Chatzifrantzis_2500.jpg'
+INFO: 2023-02-01 18:11:58,287: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap220829.html'
+INFO: 2023-02-01 18:11:58,287: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2208/Horsehead_Chatzifrantzis_2500.jpg'
+INFO: 2023-02-01 18:11:58,287: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/Horsehead_Chatzifrantzis_2500.jpg'
+INFO: 2023-02-01 18:12:00,527: save_locally() 'Download complete'
+INFO: 2023-02-01 18:12:00,528: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:12:00,530: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:12:00,530: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/nasa_apod/Horsehead_Chatzifrantzis_2500.jpg to unseen_downloads'
+INFO: 2023-02-01 18:12:01,533: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:01,533: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:01,533: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:01,533: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:01,533: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:01,533: download_one() 'National Geographic: Queue size: 22'
+INFO: 2023-02-01 18:12:01,533: download_one() 'National Geographic: Queue populated with 22 URLs'
+INFO: 2023-02-01 18:12:01,533: save_locally() 'Origin URL: https://www.nationalgeographic.co.uk/photo-of-day?image=4_12'
+INFO: 2023-02-01 18:12:01,534: save_locally() 'Image URL: https://static.nationalgeographic.co.uk/files/4_12.jpg'
+INFO: 2023-02-01 18:12:01,534: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/National Geographic/4_12.jpg'
+INFO: 2023-02-01 18:12:01,898: save_locally() 'Download complete'
+INFO: 2023-02-01 18:12:01,898: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:12:01,900: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:12:01,901: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/National Geographic/4_12.jpg to unseen_downloads'
+INFO: 2023-02-01 18:12:02,903: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:12:02,904: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:02,904: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:12:02,904: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:02,904: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:02,904: download_one() 'NASA Astro Pic of the Day: Queue size: 725'
+INFO: 2023-02-01 18:12:02,904: download_one() 'NASA Astro Pic of the Day: Queue populated with 725 URLs'
+INFO: 2023-02-01 18:12:02,904: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap220826.html'
+INFO: 2023-02-01 18:12:04,103: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2208/Chokshi_DSC7584_Panorama.jpg'
+INFO: 2023-02-01 18:12:04,103: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap220826.html'
+INFO: 2023-02-01 18:12:04,103: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2208/Chokshi_DSC7584_Panorama.jpg'
+INFO: 2023-02-01 18:12:04,104: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/Chokshi_DSC7584_Panorama.jpg'
+INFO: 2023-02-01 18:12:08,224: save_locally() 'Download complete'
+INFO: 2023-02-01 18:12:08,224: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:12:08,226: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:12:08,226: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:12:09,229: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:12:09,229: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:09,231: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:12:09,231: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:09,231: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:09,231: download_one() 'NASA Astro Pic of the Day: Queue size: 724'
+INFO: 2023-02-01 18:12:09,231: download_one() 'NASA Astro Pic of the Day: Queue populated with 724 URLs'
+INFO: 2023-02-01 18:12:09,231: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap220522.html'
+INFO: 2023-02-01 18:12:10,228: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:12:10,565: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2205/SunTsunami_nso_900.gif'
+ERROR: 2023-02-01 18:12:10,565: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 153, in download_one
+    return self.download_queue_item(queue_item)
+  File "/usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py", line 89, in download_queue_item
+    return self.save_locally(origin_url, img_url, source_location=self.ROOT_URL)
+  File "/usr/lib/python3.10/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 212, in save_locally
+    local_filename = self.get_local_filename(url=image_url)
+  File "/usr/lib/python3.10/site-packages/variety/plugins/downloaders/Downloader.py", line 84, in get_local_filename
+    return Util.get_local_name(url)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 349, in get_local_name
+    if ensure_image and not Util.is_image(filename):
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 372, in is_image
+    if Util.is_animated_gif(filename):
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 388, in is_animated_gif
+    gif = Image.open(filename)
+  File "/usr/lib/python3.10/site-packages/PIL/Image.py", line 3227, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'SunTsunami_nso_900.gif'
+INFO: 2023-02-01 18:12:11,570: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:11,571: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:11,571: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:11,571: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:11,571: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:11,571: download_one() 'National Geographic: Queue size: 21'
+INFO: 2023-02-01 18:12:11,571: download_one() 'National Geographic: Queue populated with 21 URLs'
+INFO: 2023-02-01 18:12:11,571: save_locally() 'Origin URL: https://www.nationalgeographic.co.uk/photo-of-day?image=5_12'
+INFO: 2023-02-01 18:12:11,571: save_locally() 'Image URL: https://static.nationalgeographic.co.uk/files/5_12.jpg'
+INFO: 2023-02-01 18:12:11,571: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/National Geographic/5_12.jpg'
+INFO: 2023-02-01 18:12:12,002: save_locally() 'Download complete'
+INFO: 2023-02-01 18:12:12,002: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:12:12,004: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:12:12,004: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/National Geographic/5_12.jpg to unseen_downloads'
+INFO: 2023-02-01 18:12:13,006: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:13,006: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:13,007: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:13,007: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:13,007: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:13,007: download_one() 'National Geographic: Queue size: 20'
+INFO: 2023-02-01 18:12:13,007: download_one() 'National Geographic: Queue populated with 20 URLs'
+INFO: 2023-02-01 18:12:13,007: save_locally() 'Origin URL: https://www.nationalgeographic.co.uk/photo-of-day?image=6_10'
+INFO: 2023-02-01 18:12:13,007: save_locally() 'Image URL: https://static.nationalgeographic.co.uk/files/6_10.jpg'
+INFO: 2023-02-01 18:12:13,007: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/National Geographic/6_10.jpg'
+INFO: 2023-02-01 18:12:13,434: save_locally() 'Download complete'
+INFO: 2023-02-01 18:12:13,434: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:12:13,436: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:12:13,437: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/National Geographic/6_10.jpg to unseen_downloads'
+INFO: 2023-02-01 18:12:14,440: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:14,440: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:14,440: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:14,440: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:14,440: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:14,440: download_one() 'National Geographic: Queue size: 19'
+INFO: 2023-02-01 18:12:14,440: download_one() 'National Geographic: Queue populated with 19 URLs'
+INFO: 2023-02-01 18:12:14,441: save_locally() 'Origin URL: https://www.nationalgeographic.co.uk/photo-of-day?image=7_8'
+INFO: 2023-02-01 18:12:14,441: save_locally() 'Image URL: https://static.nationalgeographic.co.uk/files/7_8.jpg'
+INFO: 2023-02-01 18:12:14,441: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/National Geographic/7_8.jpg'
+INFO: 2023-02-01 18:12:14,935: save_locally() 'Download complete'
+INFO: 2023-02-01 18:12:14,936: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:12:14,937: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:12:14,938: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/National Geographic/7_8.jpg to unseen_downloads'
+INFO: 2023-02-01 18:12:15,940: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:15,940: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:15,941: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:15,941: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:15,941: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:15,941: download_one() 'National Geographic: Queue size: 18'
+INFO: 2023-02-01 18:12:15,941: download_one() 'National Geographic: Queue populated with 18 URLs'
+INFO: 2023-02-01 18:12:15,941: save_locally() 'Origin URL: https://www.nationalgeographic.co.uk/photo-of-day?image=8_7'
+INFO: 2023-02-01 18:12:15,941: save_locally() 'Image URL: https://static.nationalgeographic.co.uk/files/8_7.jpg'
+INFO: 2023-02-01 18:12:15,941: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/National Geographic/8_7.jpg'
+INFO: 2023-02-01 18:12:16,342: save_locally() 'Download complete'
+INFO: 2023-02-01 18:12:16,342: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:12:16,344: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:12:16,345: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/National Geographic/8_7.jpg to unseen_downloads'
+INFO: 2023-02-01 18:12:16,672: process_command() 'Received command: ['-f']'
+INFO: 2023-02-01 18:12:17,347: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:17,348: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:17,348: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:17,348: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:17,348: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:17,348: download_one() 'National Geographic: Queue size: 17'
+INFO: 2023-02-01 18:12:17,348: download_one() 'National Geographic: Queue populated with 17 URLs'
+INFO: 2023-02-01 18:12:17,348: save_locally() 'Origin URL: https://www.nationalgeographic.co.uk/photo-of-day?image=9_6'
+INFO: 2023-02-01 18:12:17,349: save_locally() 'Image URL: https://static.nationalgeographic.co.uk/files/9_6.jpg'
+INFO: 2023-02-01 18:12:17,349: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/National Geographic/9_6.jpg'
+INFO: 2023-02-01 18:12:17,768: save_locally() 'Download complete'
+INFO: 2023-02-01 18:12:17,768: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:12:17,769: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:12:17,770: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/National Geographic/9_6.jpg to unseen_downloads'
+INFO: 2023-02-01 18:12:18,772: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:18,772: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:18,772: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:18,772: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:18,772: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:18,772: download_one() 'National Geographic: Queue size: 16'
+INFO: 2023-02-01 18:12:18,773: download_one() 'National Geographic: Queue populated with 16 URLs'
+INFO: 2023-02-01 18:12:18,773: save_locally() 'Origin URL: https://www.nationalgeographic.co.uk/photo-of-day?image=10_9'
+INFO: 2023-02-01 18:12:18,773: save_locally() 'Image URL: https://static.nationalgeographic.co.uk/files/10_9.jpg'
+INFO: 2023-02-01 18:12:18,773: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/National Geographic/10_9.jpg'
+INFO: 2023-02-01 18:12:19,156: save_locally() 'Download complete'
+INFO: 2023-02-01 18:12:19,157: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:12:19,158: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:12:19,159: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/National Geographic/10_9.jpg to unseen_downloads'
+INFO: 2023-02-01 18:12:20,161: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:20,161: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:20,161: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:20,162: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:20,162: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:20,162: download_one() 'National Geographic: Queue size: 15'
+INFO: 2023-02-01 18:12:20,162: download_one() 'National Geographic: Queue populated with 15 URLs'
+INFO: 2023-02-01 18:12:20,162: save_locally() 'Origin URL: https://www.nationalgeographic.co.uk/photo-of-day?image=11_9'
+INFO: 2023-02-01 18:12:20,162: save_locally() 'Image URL: https://static.nationalgeographic.co.uk/files/11_9.jpg'
+INFO: 2023-02-01 18:12:20,162: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/National Geographic/11_9.jpg'
+INFO: 2023-02-01 18:12:20,559: save_locally() 'Download complete'
+INFO: 2023-02-01 18:12:20,560: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:12:20,561: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:12:20,562: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/National Geographic/11_9.jpg to unseen_downloads'
+INFO: 2023-02-01 18:12:21,564: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:21,564: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:21,564: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2023-02-01 18:12:21,565: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2023-02-01 18:12:21,565: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:21,565: download_one() 'National Geographic: Queue size: 14'
+INFO: 2023-02-01 18:12:21,565: download_one() 'National Geographic: Queue populated with 14 URLs'
+INFO: 2023-02-01 18:12:21,565: save_locally() 'Origin URL: https://www.nationalgeographic.co.uk/photo-of-day?image=12_8'
+INFO: 2023-02-01 18:12:21,565: save_locally() 'Image URL: https://static.nationalgeographic.co.uk/files/12_8.jpg'
+INFO: 2023-02-01 18:12:21,565: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/National Geographic/12_8.jpg'
+INFO: 2023-02-01 18:12:21,952: save_locally() 'Download complete'
+INFO: 2023-02-01 18:12:21,952: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:12:21,954: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:12:21,954: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/National Geographic/12_8.jpg to unseen_downloads'
+INFO: 2023-02-01 18:12:25,880: process_command() 'Received command: ['-f']'
+INFO: 2023-02-01 18:12:31,494: process_command() 'Received command: ['-f']'
+INFO: 2023-02-01 18:12:33,234: process_command() 'Received command: ['-f']'
+INFO: 2023-02-01 18:12:58,805: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:12:58,806: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:12:58,806: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:12:58,806: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:12:58,806: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:12:58,806: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2023-02-01 18:12:58,806: download_one() 'Earth View: Queue size: 0'
+INFO: 2023-02-01 18:12:58,806: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:12:58,807: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:12:58,807: download_one() 'Earth View: Filling queue'
+ERROR: 2023-02-01 18:13:08,848: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f13c0607730>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c0607730>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py", line 57, in fill_queue
+    queue = Util.fetch_json(DATA_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c0607730>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+INFO: 2023-02-01 18:16:09,851: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:16:09,852: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:16:09,852: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:16:09,852: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:16:09,852: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2023-02-01 18:16:09,852: download_one() 'Earth View: Queue size: 0'
+INFO: 2023-02-01 18:16:09,852: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:16:09,852: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:16:09,853: download_one() 'Earth View: Filling queue'
+ERROR: 2023-02-01 18:16:19,898: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f13c0607160>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c0607160>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py", line 57, in fill_queue
+    queue = Util.fetch_json(DATA_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c0607160>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+INFO: 2023-02-01 18:16:20,901: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:16:20,901: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:16:20,901: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:16:20,901: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:16:20,901: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:16:20,901: download_one() 'NASA Astro Pic of the Day: Queue size: 723'
+INFO: 2023-02-01 18:16:20,902: download_one() 'NASA Astro Pic of the Day: Queue populated with 723 URLs'
+INFO: 2023-02-01 18:16:20,902: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap210804.html'
+INFO: 2023-02-01 18:16:22,131: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2108/CenAjets_Eht_3001.jpg'
+INFO: 2023-02-01 18:16:22,131: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap210804.html'
+INFO: 2023-02-01 18:16:22,131: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2108/CenAjets_Eht_3001.jpg'
+INFO: 2023-02-01 18:16:22,131: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/CenAjets_Eht_3001.jpg'
+INFO: 2023-02-01 18:16:25,906: save_locally() 'Download complete'
+INFO: 2023-02-01 18:16:25,907: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:16:25,909: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:16:25,910: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:16:26,912: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:16:26,913: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:16:26,913: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:16:26,913: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:16:26,913: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:16:26,913: download_one() 'NASA Astro Pic of the Day: Queue size: 722'
+INFO: 2023-02-01 18:16:26,913: download_one() 'NASA Astro Pic of the Day: Queue populated with 722 URLs'
+INFO: 2023-02-01 18:16:26,914: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap210827.html'
+INFO: 2023-02-01 18:16:27,911: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:16:28,099: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2108/ElephantTrunkCaravan.jpg'
+INFO: 2023-02-01 18:16:28,099: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap210827.html'
+INFO: 2023-02-01 18:16:28,100: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2108/ElephantTrunkCaravan.jpg'
+INFO: 2023-02-01 18:16:28,100: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/ElephantTrunkCaravan.jpg'
+INFO: 2023-02-01 18:16:40,964: save_locally() 'Download complete'
+INFO: 2023-02-01 18:16:40,964: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:16:40,965: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:16:40,965: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:16:41,968: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:16:41,968: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:16:41,968: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:16:41,968: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:16:41,968: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:16:41,968: download_one() 'NASA Astro Pic of the Day: Queue size: 721'
+INFO: 2023-02-01 18:16:41,968: download_one() 'NASA Astro Pic of the Day: Queue populated with 721 URLs'
+INFO: 2023-02-01 18:16:41,968: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap210729.html'
+INFO: 2023-02-01 18:16:42,966: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:16:43,241: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2107/sh2_101_04.jpg'
+INFO: 2023-02-01 18:16:43,241: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap210729.html'
+INFO: 2023-02-01 18:16:43,241: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2107/sh2_101_04.jpg'
+INFO: 2023-02-01 18:16:43,241: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/sh2_101_04.jpg'
+INFO: 2023-02-01 18:16:56,537: save_locally() 'Download complete'
+INFO: 2023-02-01 18:16:56,537: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:16:56,539: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:16:56,540: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:16:57,542: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:16:57,542: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:16:57,542: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:16:57,542: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:16:57,542: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:16:57,542: download_one() 'NASA Astro Pic of the Day: Queue size: 720'
+INFO: 2023-02-01 18:16:57,543: download_one() 'NASA Astro Pic of the Day: Queue populated with 720 URLs'
+INFO: 2023-02-01 18:16:57,543: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap220102.html'
+INFO: 2023-02-01 18:16:58,540: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:16:58,755: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2201/lunararcs_caxete_1280.jpg'
+INFO: 2023-02-01 18:16:58,756: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap220102.html'
+INFO: 2023-02-01 18:16:58,756: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2201/lunararcs_caxete_1280.jpg'
+INFO: 2023-02-01 18:16:58,756: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/lunararcs_caxete_1280.jpg'
+INFO: 2023-02-01 18:17:00,701: save_locally() 'Download complete'
+INFO: 2023-02-01 18:17:00,702: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:17:00,703: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:17:00,704: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/nasa_apod/lunararcs_caxete_1280.jpg to unseen_downloads'
+INFO: 2023-02-01 18:17:01,706: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:17:01,706: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:17:01,706: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:17:01,706: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:17:01,707: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:17:01,707: download_one() 'NASA Astro Pic of the Day: Queue size: 719'
+INFO: 2023-02-01 18:17:01,707: download_one() 'NASA Astro Pic of the Day: Queue populated with 719 URLs'
+INFO: 2023-02-01 18:17:01,707: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap211203.html'
+INFO: 2023-02-01 18:17:02,989: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2112/ngc4656_4631_A1-LRGB_112421.jpg'
+INFO: 2023-02-01 18:17:02,989: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap211203.html'
+INFO: 2023-02-01 18:17:02,989: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2112/ngc4656_4631_A1-LRGB_112421.jpg'
+INFO: 2023-02-01 18:17:02,989: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/ngc4656_4631_A1-LRGB_112421.jpg'
+INFO: 2023-02-01 18:17:07,056: save_locally() 'Download complete'
+INFO: 2023-02-01 18:17:07,056: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:17:07,058: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:17:07,058: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/nasa_apod/ngc4656_4631_A1-LRGB_112421.jpg to unseen_downloads'
+INFO: 2023-02-01 18:17:08,061: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:17:08,061: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:17:08,061: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:17:08,061: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:17:08,061: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:17:08,061: download_one() 'NASA Astro Pic of the Day: Queue size: 718'
+INFO: 2023-02-01 18:17:08,061: download_one() 'NASA Astro Pic of the Day: Queue populated with 718 URLs'
+INFO: 2023-02-01 18:17:08,062: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap220125.html'
+INFO: 2023-02-01 18:17:09,306: download_queue_item() 'No image url found for this APOD URL'
+INFO: 2023-02-01 18:20:10,309: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:20:10,309: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:20:10,309: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:20:10,309: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:20:10,309: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2023-02-01 18:20:10,309: download_one() 'Earth View: Queue size: 0'
+INFO: 2023-02-01 18:20:10,309: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:20:10,309: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:20:10,310: download_one() 'Earth View: Filling queue'
+ERROR: 2023-02-01 18:20:20,343: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f13c0a73eb0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c0a73eb0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py", line 57, in fill_queue
+    queue = Util.fetch_json(DATA_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c0a73eb0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+INFO: 2023-02-01 18:20:21,346: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:21,346: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:21,346: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:21,346: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:21,346: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:20:21,346: download_one() 'NASA Astro Pic of the Day: Queue size: 717'
+INFO: 2023-02-01 18:20:21,346: download_one() 'NASA Astro Pic of the Day: Queue populated with 717 URLs'
+INFO: 2023-02-01 18:20:21,347: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap211210.html'
+INFO: 2023-02-01 18:20:22,583: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2112/Eclipseclock-final2.JPG'
+INFO: 2023-02-01 18:20:22,584: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap211210.html'
+INFO: 2023-02-01 18:20:22,584: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2112/Eclipseclock-final2.JPG'
+INFO: 2023-02-01 18:20:22,584: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/Eclipseclock-final2.JPG'
+INFO: 2023-02-01 18:20:27,523: save_locally() 'Download complete'
+INFO: 2023-02-01 18:20:27,524: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:20:27,525: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:20:27,526: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/nasa_apod/Eclipseclock-final2.JPG to unseen_downloads'
+INFO: 2023-02-01 18:20:28,528: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:28,528: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:28,528: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:28,528: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:28,528: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:20:28,529: download_one() 'NASA Astro Pic of the Day: Queue size: 716'
+INFO: 2023-02-01 18:20:28,529: download_one() 'NASA Astro Pic of the Day: Queue populated with 716 URLs'
+INFO: 2023-02-01 18:20:28,529: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap221223.html'
+INFO: 2023-02-01 18:20:29,779: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2212/SaturnInsideOut2_cassini_960.jpg'
+INFO: 2023-02-01 18:20:29,779: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap221223.html'
+INFO: 2023-02-01 18:20:29,779: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2212/SaturnInsideOut2_cassini_960.jpg'
+INFO: 2023-02-01 18:20:29,779: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/SaturnInsideOut2_cassini_960.jpg'
+INFO: 2023-02-01 18:20:31,034: save_locally() 'Download complete'
+INFO: 2023-02-01 18:20:31,034: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:20:31,036: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:20:31,037: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:20:32,038: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:32,039: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:32,039: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:32,039: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:32,039: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:20:32,039: download_one() 'NASA Astro Pic of the Day: Queue size: 715'
+INFO: 2023-02-01 18:20:32,039: download_one() 'NASA Astro Pic of the Day: Queue populated with 715 URLs'
+INFO: 2023-02-01 18:20:32,039: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap221121.html'
+INFO: 2023-02-01 18:20:33,037: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:20:33,333: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2211/Butterfly_HubbleOstling_3656.jpg'
+INFO: 2023-02-01 18:20:33,333: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap221121.html'
+INFO: 2023-02-01 18:20:33,334: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2211/Butterfly_HubbleOstling_3656.jpg'
+INFO: 2023-02-01 18:20:33,334: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/Butterfly_HubbleOstling_3656.jpg'
+INFO: 2023-02-01 18:20:38,753: save_locally() 'Download complete'
+INFO: 2023-02-01 18:20:38,754: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:20:38,755: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:20:38,756: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/nasa_apod/Butterfly_HubbleOstling_3656.jpg to unseen_downloads'
+INFO: 2023-02-01 18:20:39,758: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:39,759: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:39,759: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:39,759: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:39,759: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:20:39,759: download_one() 'NASA Astro Pic of the Day: Queue size: 714'
+INFO: 2023-02-01 18:20:39,759: download_one() 'NASA Astro Pic of the Day: Queue populated with 714 URLs'
+INFO: 2023-02-01 18:20:39,759: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap210919.html'
+INFO: 2023-02-01 18:20:41,194: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2109/saturn2004to2015_peach_2504.jpg'
+INFO: 2023-02-01 18:20:41,195: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap210919.html'
+INFO: 2023-02-01 18:20:41,196: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2109/saturn2004to2015_peach_2504.jpg'
+INFO: 2023-02-01 18:20:41,197: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/saturn2004to2015_peach_2504.jpg'
+INFO: 2023-02-01 18:20:44,169: save_locally() 'Download complete'
+INFO: 2023-02-01 18:20:44,169: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:20:44,170: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:20:44,171: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/nasa_apod/saturn2004to2015_peach_2504.jpg to unseen_downloads'
+INFO: 2023-02-01 18:20:45,174: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:45,174: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:45,174: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:45,174: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:45,174: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:20:45,174: download_one() 'NASA Astro Pic of the Day: Queue size: 713'
+INFO: 2023-02-01 18:20:45,175: download_one() 'NASA Astro Pic of the Day: Queue populated with 713 URLs'
+INFO: 2023-02-01 18:20:45,175: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap220225.html'
+INFO: 2023-02-01 18:20:46,402: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2202/PerseveranceSol354Nav1_1br2_KenKremer.jpg'
+INFO: 2023-02-01 18:20:46,402: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap220225.html'
+INFO: 2023-02-01 18:20:46,402: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2202/PerseveranceSol354Nav1_1br2_KenKremer.jpg'
+INFO: 2023-02-01 18:20:46,402: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/PerseveranceSol354Nav1_1br2_KenKremer.jpg'
+INFO: 2023-02-01 18:20:51,528: save_locally() 'Download complete'
+INFO: 2023-02-01 18:20:51,528: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:20:51,530: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:20:51,531: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/nasa_apod/PerseveranceSol354Nav1_1br2_KenKremer.jpg to unseen_downloads'
+INFO: 2023-02-01 18:20:52,534: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:52,534: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:52,534: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:52,534: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:52,534: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:20:52,534: download_one() 'NASA Astro Pic of the Day: Queue size: 712'
+INFO: 2023-02-01 18:20:52,535: download_one() 'NASA Astro Pic of the Day: Queue populated with 712 URLs'
+INFO: 2023-02-01 18:20:52,535: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap211113.html'
+INFO: 2023-02-01 18:20:53,808: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2111/67P_211107.jpg'
+INFO: 2023-02-01 18:20:53,808: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap211113.html'
+INFO: 2023-02-01 18:20:53,808: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2111/67P_211107.jpg'
+INFO: 2023-02-01 18:20:53,808: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/67P_211107.jpg'
+INFO: 2023-02-01 18:20:58,254: save_locally() 'Download complete'
+INFO: 2023-02-01 18:20:58,255: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:20:58,256: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:20:58,257: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2023-02-01 18:20:59,260: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:59,261: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:59,261: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:20:59,261: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:20:59,261: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:20:59,261: download_one() 'NASA Astro Pic of the Day: Queue size: 711'
+INFO: 2023-02-01 18:20:59,261: download_one() 'NASA Astro Pic of the Day: Queue populated with 711 URLs'
+INFO: 2023-02-01 18:20:59,261: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap220415.html'
+INFO: 2023-02-01 18:21:00,258: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-02-01 18:21:00,543: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2204/PIA25175.jpg'
+INFO: 2023-02-01 18:21:00,543: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap220415.html'
+INFO: 2023-02-01 18:21:00,543: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2204/PIA25175.jpg'
+INFO: 2023-02-01 18:21:00,543: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/PIA25175.jpg'
+INFO: 2023-02-01 18:21:13,365: save_locally() 'Download complete'
+INFO: 2023-02-01 18:21:13,366: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:21:13,367: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:21:13,368: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/nasa_apod/PIA25175.jpg to unseen_downloads'
+INFO: 2023-02-01 18:21:14,369: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:21:14,370: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:21:14,371: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2023-02-01 18:21:14,372: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2023-02-01 18:21:14,372: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2023-02-01 18:21:14,372: download_one() 'NASA Astro Pic of the Day: Queue size: 710'
+INFO: 2023-02-01 18:21:14,372: download_one() 'NASA Astro Pic of the Day: Queue populated with 710 URLs'
+INFO: 2023-02-01 18:21:14,372: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap210504.html'
+INFO: 2023-02-01 18:21:15,621: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2105/IssSun_Ergun_1752.jpg'
+INFO: 2023-02-01 18:21:15,622: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap210504.html'
+INFO: 2023-02-01 18:21:15,622: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2105/IssSun_Ergun_1752.jpg'
+INFO: 2023-02-01 18:21:15,622: save_locally() 'Local path: /home/sunnyarco/.config/variety/Downloaded/nasa_apod/IssSun_Ergun_1752.jpg'
+INFO: 2023-02-01 18:21:18,932: save_locally() 'Download complete'
+INFO: 2023-02-01 18:21:18,932: update_indicator() 'Setting file info to: /usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg'
+INFO: 2023-02-01 18:21:18,934: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-02-01 18:21:18,934: download_one_from() 'Adding downloaded file /home/sunnyarco/.config/variety/Downloaded/nasa_apod/IssSun_Ergun_1752.jpg to unseen_downloads'
+INFO: 2023-02-01 18:24:19,937: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:24:19,938: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:24:19,938: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:24:19,938: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:24:19,938: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2023-02-01 18:24:19,938: download_one() 'Earth View: Queue size: 0'
+INFO: 2023-02-01 18:24:19,938: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:24:19,938: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:24:19,938: download_one() 'Earth View: Filling queue'
+ERROR: 2023-02-01 18:24:29,988: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f13c0599ae0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c0599ae0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py", line 57, in fill_queue
+    queue = Util.fetch_json(DATA_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c0599ae0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+INFO: 2023-02-01 18:27:30,992: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:27:30,992: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:27:30,992: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:27:30,992: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:27:30,992: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2023-02-01 18:27:30,992: download_one() 'Earth View: Queue size: 0'
+INFO: 2023-02-01 18:27:30,993: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 18:27:30,993: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 18:27:30,993: download_one() 'Earth View: Filling queue'
+ERROR: 2023-02-01 18:27:41,038: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f13c05c64a0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c05c64a0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py", line 57, in fill_queue
+    queue = Util.fetch_json(DATA_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c05c64a0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+INFO: 2023-02-01 19:03:51,953: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 19:03:51,953: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 19:03:51,953: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 19:03:51,953: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 19:03:51,953: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2023-02-01 19:03:51,953: download_one() 'Earth View: Queue size: 0'
+INFO: 2023-02-01 19:03:51,953: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 19:03:51,953: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 19:03:51,953: download_one() 'Earth View: Filling queue'
+ERROR: 2023-02-01 19:04:02,004: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f13c05c53f0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c05c53f0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py", line 57, in fill_queue
+    queue = Util.fetch_json(DATA_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c05c53f0>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+INFO: 2023-02-01 19:07:03,007: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 19:07:03,007: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 19:07:03,007: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 19:07:03,007: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 19:07:03,007: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2023-02-01 19:07:03,008: download_one() 'Earth View: Queue size: 0'
+INFO: 2023-02-01 19:07:03,008: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2023-02-01 19:07:03,008: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2023-02-01 19:07:03,008: download_one() 'Earth View: Filling queue'
+ERROR: 2023-02-01 19:07:13,049: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f13c05c7190>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c05c7190>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py", line 57, in fill_queue
+    queue = Util.fetch_json(DATA_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /limhenry/earthview/3cd868a932cd652c4373c0f6ea8618a96b08be4e/wallpaper%20changer/data.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f13c05c7190>, 'Connection to raw.githubusercontent.com timed out. (connect timeout=5)'))

@@ -1,0 +1,13 @@
+0
+/usr/share/backgrounds/archlinux-login-backgrounds/background27.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/background44.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/background04.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/background47.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/background36.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/background34.jpg
+/usr/share/backgrounds/arcolinux/arco-login-plasma.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/background52.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/background63.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/background23.jpg
+/usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
